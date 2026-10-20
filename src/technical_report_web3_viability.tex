@@ -19,7 +19,7 @@
 
 \title{\textbf{\LARGE A Systematic Feasibility Analysis of Smart Contract-Based B2B Services:}\\ \Large Lessons from an Adversarial Evaluation of 53 Market Hypotheses and a Future Research Agenda}
 \author{\textbf{Jose Luis Costumero Burgos}\thanks{Author's Note \& Disclaimer: The research, analyses, and conclusions presented in this document were conducted entirely on a personal and independent basis outside of professional employment. The views expressed herein belong strictly to the author and do not reflect or represent the positions, strategies, or opinions of any employer, affiliated company, or organization.}\\ \small Independent Researcher}
-\date{Technical Report v1.1.1 --- October 2026 (Revised after external feedback)}
+\date{Technical Report v1.2 --- October 2026 (Revised after external feedback)}
 
 \begin{document}
 
@@ -30,7 +30,7 @@
 \end{abstract}
 
 \section{Introduction and Problem Formulation}
-Since Nick Szabo's initial formalization of smart contracts in 1994, the core theoretical promise of distributed state machines has been the radical reduction of transaction costs by replacing trusted intermediaries with deterministic code. Despite sub-cent gas fees under EIP-4844 and regulatory clarity under MiCA (Regulation EU 2023/1114), enterprise adoption in non-financial B2B sectors has systematically stalled. Prominent industry precedents---including the discontinuation of TradeLens (Maersk \& IBM), the insolvency of the we.trade banking consortium (liquidated June 2022 [12]), the closure of Contour [13] and Marco Polo [14], and the \$170M pre-tax write-down of the Australian Stock Exchange CHESS DLT replacement (~$170M AUD post-tax, Accenture technical review [15])---corroborate the decision model of W\"ust \& Gervais (2018): when established centralized third parties are available and legally accountable, distributed ledgers introduce strictly negative utility in throughput, cost, and governance.
+Since Nick Szabo's initial formalization of smart contracts in 1994, the core theoretical promise of distributed state machines has been the radical reduction of transaction costs by replacing trusted intermediaries with deterministic code. Despite sub-cent gas fees under EIP-4844 and regulatory clarity under MiCA (Regulation EU 2023/1114), enterprise adoption in non-financial B2B sectors has systematically stalled. Prominent industry precedents---including the discontinuation of TradeLens (Maersk \& IBM, Q1 2023), the formal insolvency and liquidation of the we.trade banking consortium (June 24, 2022), the closure of Contour and Marco Polo, and the cancellation and derecognition of the Australian Stock Exchange CHESS DLT replacement (resulting in a 245--255 million AUD pre-tax charge following Accenture\'s technical review identifying distributed architecture and state synchronization bottlenecks)---corroborate the decision model of W\"ust \& Gervais (2018): when established centralized third parties are available and legally accountable, distributed ledgers introduce strictly negative utility in throughput, cost, and governance.
 
 \section{Multi-Stage Adversarial Evaluation Methodology}
 The evaluation framework filters hypotheses through a stage-gated elimination funnel:
@@ -60,7 +60,7 @@ Cluster D: Supply Chain, Energy \& Physical Asset Operations & 19 & 35.8\% \\
 \end{tabular}
 \end{table}
 
-\noindent Across the 53 hypotheses, the funnel attrition breakdown is: Filter 1 eliminated 14 hypotheses; Filter 2 eliminated 8; Filter 3 eliminated 7; Filter 4 eliminated 9; and Filter 5 eliminated the remaining 15 hypotheses. Exactly zero hypotheses advanced to enterprise testnet deployment (Stage 6).
+\noindent Under strict sequential mechanical elimination across the 53 hypotheses: Filter 1 (Regulatory \& Tax) eliminated 30 hypotheses (56.6\%); Filter 2 eliminated 0 in sequential order (3 hypotheses with $T < 6.0$ were already eliminated in Filter 1); Filter 3 (Unit Economics) eliminated 5 hypotheses (9.4\%); and Filter 5 (Incumbent Red-Teaming) eliminated the remaining 18 hypotheses (34.0\%). Exactly zero hypotheses advanced to enterprise testnet deployment (Stage 6).
 
 \section{Causal Analysis: The Three Structural Failure Heuristics}
 \begin{itemize}
