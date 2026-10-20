@@ -1,0 +1,332 @@
+---
+title: "Análisis Sistemático de Viabilidad en Servicios B2B Basados en Contratos Inteligentes: Lecciones de un Embudo Adversarial de 53 Hipótesis y Agenda de Investigación Futura"
+authors:
+  - name: "Jose Luis Costumero Burgos"
+    affiliation: "Investigador Independiente"
+date: "Octubre 2026"
+version: "1.1.0"
+document_type: "Technical Report / Working Paper"
+keywords: "Smart Contracts, B2B SaaS, Due Diligence, Resultados Negativos, Fricción de Mercado, Cyber Resilience Act, MiCA, x402, Evaluación Adversarial, DLT"
+---
+
+# Análisis Sistemático de Viabilidad en Servicios B2B Basados en Contratos Inteligentes: Lecciones de un Embudo Adversarial de 53 Hipótesis y Agenda de Investigación Futura
+
+**Jose Luis Costumero Burgos**  
+*Investigador Independiente*  
+Fecha: Octubre 2026 · Versión: 1.1 (Technical Report — Revisado tras Peer-Review)  
+Repositorio de Datos: `https://github.com/jlcostumero/b2b-smart-contracts-feasibility` (Corpus Abierto de Evaluación)
+
+> **Nota del Autor y Aviso Legal**: *La investigación, análisis y conclusiones presentadas en este documento fueron realizadas a título estrictamente personal e independiente, al margen de cualquier relación laboral o profesional. Las opiniones expresadas pertenecen exclusivamente al autor y no reflejan ni representan la posición, estrategia u opinión de ningún empleador actual o anterior, empresa u organización afiliada.*
+
+---
+
+## Resumen Ejecutivo (Abstract)
+
+La literatura y la industria de la tecnología de registros distribuidos (*Distributed Ledger Technology*, DLT) han postulado reiteradamente que los contratos inteligentes (*smart contracts*) constituyen la base para una nueva generación de servicios B2B caracterizados por la desintermediación, la inmutabilidad probatoria y la liquidación autónoma máquina-a-máquina (M2M). No obstante, la tasa de adopción corporativa de soluciones basadas en redes públicas permisionadas o abiertas sigue siendo marginal frente a las arquitecturas centralizadas Web2.
+
+En este trabajo se presenta una evaluación heurística adversarial estructurada de **53 hipótesis de negocio y modelos de servicio B2B sobre contratos inteligentes** desplegados sobre redes de Capa 2 compatibles con EVM (como Base y Arbitrum One). Cada hipótesis fue sometida a un protocolo secuencial de cinco fases de filtrado: viabilidad regulatoria y tributaria en la Unión Europea (MiCA, DAC8, GDPR, LSSI y eIDAS 2.0), factibilidad técnica y dependencia de oráculos, economía unitaria frente a costes de gas L2, barreras operativas de captación y gobernanza B2B, y un contra-análisis crítico adversarial (*Red-Teaming*) frente a la mejor alternativa incumbente del mercado.
+
+Los resultados revelan una tasa de rechazo del 100% en aplicaciones directas de mercado tradicional: ninguna de las 53 hipótesis evaluadas demostró un foso competitivo (*moat*) económicamente sostenible frente a herramientas Web2 ya existentes o gratuitas. A partir de este cuerpo empírico, identificamos tres heurísticas de fallo estructural: (1) la *Heurística del Incumbente Gratuito*, ejemplificada por la comoditización de infraestructuras criptográficas abiertas (Sigstore, GitHub Actions) frente a servicios de atestación de software; (2) la *Fricción de la Identidad Jurídica y AML*, que impide la liquidación de agentes M2M bajo marcos de facturación formal (CIF/NIF) y directivas de blanqueo de capitales; y (3) la *Falacia del Oráculo en Datos Físicos*. Finalmente, sintetizamos una **Agenda de Investigación Futura** planteada como conjeturas condicionadas en tres nichos frontera: la coordinación pura entre agentes sin personalidad jurídica humana, la atestación de cumplimiento mediante pruebas de conocimiento cero (ZK), y la infraestructura en entornos resistentes a la censura.
+
+**Palabras clave**—*Smart Contracts, B2B SaaS, Due Diligence, Resultados Negativos, Fricción de Mercado, Cyber Resilience Act, MiCA, Protocolo x402, Evaluación Adversarial, DLT.*
+
+---
+
+## 1. Introducción y Planteamiento del Problema
+
+Desde la formalización inicial de los contratos inteligentes por Nick Szabo en 1994 y su implementación práctica a gran escala a partir de Ethereum en 2015, la promesa fundacional de esta tecnología ha sido la reducción de los costes de transacción mediante la sustitución de intermediarios fiduciarios por reglas deterministas de ejecución en código (*code is law*).
+
+Con la maduración de las redes de Capa 2 (L2 rollups) como Arbitrum One y Base, y la introducción de mejoras a nivel de protocolo como EIP-4844 (*proto-danksharding*), los costes de publicación de datos on-chain se redujeron en más de un 90%, llevando las tarifas por transacción típica a fracciones de céntimo de dólar ($0.001–$0.01 USD). Paralelamente, la Unión Europea estableció un marco normativo integral con la entrada en vigor del Reglamento MiCA (Reglamento UE 2023/1114), clarificando el perímetro legal de los criptoactivos y proveedores de servicios.
+
+A pesar de estas condiciones aparentemente óptimas (bajos costes de transacción y certidumbre jurídica), la transición de la computación on-chain hacia casos de uso empresariales en la economía real no financiera ha fracasado sistemáticamente en materializarse. La mayoría de las iniciativas empresariales han culminado en cierres discretos. Destacados precedentes históricos corroboran este patrón en consorcios globales:
+- **TradeLens (Maersk & IBM)**: Tras cinco años de desarrollo y cientos de millones invertidos para digitalizar la documentación aduanera y logística mundial, TradeLens fue clausurada a finales de 2022 por falta de viabilidad comercial y la reticencia de las navieras competidoras a unirse a una plataforma liderada por un competidor [11].
+- **we.trade**: Consorcio fundado por 12 grandes bancos europeos (Santander, Deutsche Bank, HSBC, etc.) sobre Hyperledger Fabric para automatizar trade finance mediante smart contracts, que se declaró en insolvencia en junio de 2022 ante el escaso volumen transaccional [12].
+- **Contour y Marco Polo Network**: Redes bancarias globales de trade finance en blockchain que cerraron sus operaciones en 2023 por consumo insostenible de capital y resistencia corporativa.
+- **Bolsa de Valores de Australia (ASX CHESS Replacement)**: Proyecto cancelado en noviembre de 2022 con un deterioro contable de 170 millones de dólares australianos tras una auditoría independiente de Accenture que dictaminó que la arquitectura DLT generaba cuellos de botella críticos de concurrencia y latencia.
+
+Estos precedentes enlazan directamente con el marco de decisión formulado por **Wüst & Gervais (2018)** [10]: cuando las partes cuentan con un tercero de confianza aceptado o cuando existe un marco judicial ordinario para dirimir incumplimientos, una blockchain introduce penalizaciones estrictamente negativas en coste, latencia y complejidad operativa.
+
+Este informe aborda la siguiente pregunta de investigación:
+> *¿Existen condiciones objetivas bajo las cuales un servicio B2B fundamentado en contratos inteligentes sobre L2 presente ventajas competitivas sostenibles frente a las arquitecturas centralizadas Web2 en el marco europeo actual?*
+
+Para responder a esta cuestión y neutralizar el sesgo de complacencia (*sycophancy bias*) característico de los análisis preliminares, diseñamos un protocolo de evaluación adversarial multidimensional al que se sometieron 53 hipótesis representativas de todas las áreas funcionales de la empresa.
+
+---
+
+## 2. Marco Metodológico del Embudo de Validación
+
+El protocolo de investigación se articuló como un embudo secuencial de eliminación directa por etapas. Para que una hipótesis fuera considerada viable para producción corporativa, debía superar de forma fundamentada cinco filtros independientes sin recurrir a supuestos especulativos ni subsidios de capital riesgo.
+
+```mermaid
+flowchart TD
+    H["<b>53 Hipótesis Candidatas</b><br/>(Ingreso Sistemático de Mercado)"] --> F1["<b>Filtro 1: Regulatorio & Fiscal (UE)</b><br/>MiCA, DAC8, 4AMLD, eIDAS 2.0, IVA"]
+    
+    F1 -- "14 Descartadas (26.4%)" --> D1["<b>Eliminación Regulatoria</b><br/>MiFID II, Cláusulas Penales Nulas, Fricción IVA"]
+    F1 -- "39 Superadas" --> F2["<b>Filtro 2: Viabilidad Técnica</b><br/>Gas L2, Integridad de Oráculos, Latencia"]
+    
+    F2 -- "8 Descartadas (15.1%)" --> D2["<b>Eliminación Técnica</b><br/>Superficie de Oráculo Físico, Latencia GPU"]
+    F2 -- "31 Superadas" --> F3["<b>Filtro 3: Economía Unitaria</b><br/>Margen Bruto de Contribución, Coste RPC"]
+    
+    F3 -- "7 Descartadas (13.2%)" --> D3["<b>Eliminación Económica</b><br/>Erosión de Micromárgenes, Coste de Staking"]
+    F3 -- "24 Superadas" --> F4["<b>Filtro 4: Captación & GTM</b><br/>Adquisición B2B, Custodia de Claves, Contabilidad"]
+    
+    F4 -- "9 Descartadas (17.0%)" --> D4["<b>Eliminación por Fricción Corporativa</b><br/>Rechazo de Tesorería Cripto, Ausencia de Agentes"]
+    F4 -- "15 Superadas" --> F5["<b>Filtro 5: Red-Teaming Adversarial</b><br/>Comparativa frente a Incumbentes Web2 Gratuitos"]
+    
+    F5 -- "15 Descartadas (28.3%)" --> D5["<b>Eliminación por Dominancia Web2</b><br/>Estándares Criptográficos Gratuitos (Sigstore, Stripe, Okta)"]
+    
+    D5 -.-> ANG["<b>Protocolo de Rescate Lateral</b><br/>(Abogado del Ángel)"]
+    ANG -- "3 Identificadas como Conjeturas" --> FRONTIER["<b>Fronteras de Investigación Futura</b><br/>(A2A, Cumplimiento ZK, Resistencia a Censura)"]
+    
+    F5 -- "0 Validadas" --> POC["<b>Fase 6: PoC en Testnet Corporativa</b><br/>(0 de 53 Hipótesis Calificadas)"]
+```
+
+### 2.1. Filtro 1 · Viabilidad Regulatoria y Fiscal Europea
+- **Perímetro MiCA (Reglamento UE 2023/1114, Art. 3)**: Determinación de si la actividad califica como Proveedor de Servicios de Criptoactivos (CASP). Las actividades que exigen licencias formalizadas ante autoridades nacionales competentes (CNMV, Banco de España, BaFin) fueron auditadas por su sobrecoste de cumplimiento.
+- **Directiva DAC8 y Marcos AML/CFT**: Evaluación bajo la Directiva (UE) 2023/2226 del Consejo (DAC8) [3] que modifica la Directiva 2011/16/UE, y la Directiva (UE) 2015/849 (4AMLD) / Directiva (UE) 2018/843 (5AMLD). Verificación de las obligaciones de reporte fiscal e identificación KYC al operar con liquidaciones en tokens.
+- **Tributación SaaS y Facturación Formal**: Clasificación según la Directiva 2006/112/CE (Directiva del IVA, Art. 58) y legislación nacional (Ley 37/1992 del IVA, Art. 71.3). Comprobación de la emisión obligatoria de facturas con CIF/NIF y reglas de inversión del sujeto pasivo en operaciones B2B intracomunitarias.
+- **Eficacia Probatoria (eIDAS y eIDAS 2.0)**: Evaluación bajo el Reglamento (UE) 910/2014 y el Reglamento (UE) 2024/1183 (eIDAS 2.0) [4]. Análisis de libros mayores electrónicos cualificados (QELs, Arts. 45i–45k) y del Art. 41.1 (no discriminación de sellos electrónicos no cualificados) frente a la presunción cualificada de exactitud e integridad temporal en litigios mercantiles.
+
+### 2.2. Filtro 2 · Factibilidad Técnica y Sobrecoste de Infraestructura
+- **Perfilado de Gas en L2**: Medición de costes reales de ejecución en Base (`chainId: 8453`) y Arbitrum One (`chainId: 42161`). Medición de consumo de gas en almacenamiento SSTORE (inserción de raíces de Merkle de 32 bytes) y calldata bajo condiciones reales de red.
+- **Protocolos de Liquidación entre Máquinas**: Evaluación de compatibilidad con estándares abiertos (Protocolo HTTP 402 / x402 [9], especificación 2025), evaluando esquemas de autorización `exact`, `upto` y liquidación por lotes con transferencias sin gas Permit2/EIP-3009.
+- **Auditoría de Superficie de Ataque en Oráculos**: Penalización de cualquier diseño dependiente de oráculos externos, que reintroducen el punto centralizado de fallo y el peaje económico que el sistema pretendía erradicar.
+
+### 2.3. Filtro 3 · Economía Unitaria y Sostenibilidad Financiera
+- **Modelado de Margen de Contribución**: Desglose minucioso de márgenes brutos por transacción. Determinación del umbral volumétrico necesario para cubrir endpoints RPC dedicados, relays de contingencia y mantenimiento sin depender de subsidios de tokens.
+- **Viabilidad de Micropagos**: Análisis de tarifas sub-céntimo ($0.001–$0.01 USD) frente a costes de conciliación contable y liquidación bancaria.
+
+### 2.4. Filtro 4 · Barreras Operativas de Adopción y Venta B2B
+- **Alineamiento con el Comprador Corporativo**: Evaluación de la fricción de venta con decisores tradicionales (CISOs, CFOs, Directores de Compras).
+- **Sobrecoste Operativo de Custodia**: Análisis de la responsabilidad civil en custodia de claves privadas, gobernanza multi-firma y volatilidad contable de balances bajo normativa PGC/NIIF.
+
+### 2.5. Filtro 5 · Contra-Análisis Adversarial (Estrés frente al Incumbente)
+- **Confrontación Obligatoria con el Incumbente**: Comparativa contra la alternativa centralizada más consolidada o gratuita (Sigstore, Stripe, Cloudflare, Okta, Datadog). Si una solución Web2 resuelve el ≥90% del problema a coste marginal cero, la hipótesis queda formalmente rechazada por ausencia de foso competitivo.
+
+### 2.6. Rúbrica de Puntuación, Regla de Veto y Límites Metodológicos
+
+Para garantizar la consistencia analítica, cada hipótesis se puntuó de 1.0 a 10.0 en cinco dimensiones estandarizadas:
+- **Viabilidad Legal y Regulatoria (L)**: Conformidad estricta con directivas UE sin requerir licencias bancarias desproporcionadas. Umbral: $L < 6.0 \implies$ Descarte Inmediato.
+- **Factibilidad Técnica (T)**: Viabilidad en EVM L2 sin cuellos de botella de latencia u oráculos. Umbral: $T < 6.0 \implies$ Descarte Inmediato.
+- **Viabilidad Económica (E)**: Márgenes brutos unitarios positivos netos de gas, RPC y servidores. Umbral: $E < 6.0 \implies$ Descarte Inmediato.
+- **Robustez frente al Incumbente (R)**: Capacidad defensiva frente al incumbente Web2 consolidado. Umbral: $R < 6.0 \implies$ Descarte en Filtro 5.
+
+**Regla de Veto Conjuntivo**: El sistema actúa como un filtro implacable de descarte: una puntuación insuficiente en cualquier filtro crítico aborta la hipótesis de negocio, con independencia de la excelencia técnica o económica en otros aspectos.
+
+**Límites Metodológicos Declarados**:
+1. **Síntesis Cualitativa Monográfica Asistida por IA**: El análisis ha sido sintetizado por un único investigador independiente. Para contrarrestar sesgos cognitivos y complacencia, se utilizó un protocolo automatizado de agentes de IA con roles especializados enfrentados: *Abogado del Diablo* (red-teaming de incumbentes), *Auditor Legal Web3* (auditoría regulatoria), *Analista Tokenomics* (modelado de gas y costes) y *Abogado del Ángel* (búsqueda de pivots).
+2. **Ausencia de Entrevistas de Venta Reales**: Las hipótesis no se contrastaron en llamadas de venta B2B presenciales con clientes; las conclusiones se fundamentan en fuentes primarias legales (EUR-Lex), especificaciones técnicas, precios públicos de APIs corporativas y telemetría de red.
+3. **Escala Heurística Ordinal**: Las notas asignadas representan clasificaciones heurísticas del nivel de fricción operativa, no variables econométricas continuas.
+
+---
+
+## 3. Taxonomía de Hipótesis y Hallazgos por Clúster
+
+Las 53 hipótesis evaluadas se agruparon en cuatro clústeres operativos:
+
+**Tabla 1:** Distribución Reconciliada de Hipótesis Evaluadas por Clúster Funcional.
+
+| Clúster Operativo | Hipótesis Evaluadas | Proporción | Descartes Acumulados |
+| :--- | :---: | :---: | :--- |
+| **Clúster A**: Integridad de Software, Procedencia y SBOM | 7 | 13.2% | Filtro 5: 5 hipótesis; Filtro 1: 2 hipótesis |
+| **Clúster B**: Liquidación M2M, Cómputo y Protocolos de Agentes | 16 | 30.2% | Filtro 4: 6 hipótesis; Filtro 3: 4; Filtro 5: 4; Filtro 1: 2 |
+| **Clúster C**: Eficacia Jurídica, Notarización y Resolución de Disputas | 11 | 20.8% | Filtro 1: 6 hipótesis; Filtro 5: 3; Filtro 2: 2 |
+| **Clúster D**: Cadena de Suministro, Energía y Activos Físicos | 19 | 35.8% | Filtro 2: 6 hipótesis; Filtro 1: 4; Filtro 5: 3; Filtro 3: 3; Filtro 4: 3 |
+| **Total Corpus Evaluado** | **53** | **100.0%** | **Tasa de Paso a Fase 6: 0.0% (0 / 53)** |
+
+### Clúster A: Integridad de Software, Procedencia y SBOM (7 Hipótesis)
+Orientado a la trazabilidad criptográfica de compilaciones y anclaje de listas de materiales de software (SBOM) bajo la **Cyber Resilience Act (CRA, Reglamento UE 2024/2847)** y la directiva NIS2 (`T-134`, `T-137`, `T-140`, `T-141`, `T-143`, `T-147`, `T-150`).
+
+- **Evaluación Inicial**: Obtuvo las puntuaciones técnicas basales más altas del estudio (Media: **8.1 / 10** en `T-140`; Legal: 8.0, Técnico: 8.5, Económico: 7.5).
+- **El Punto de Ruptura**: La integración masiva del incumbente por **Sigstore, GitHub Actions y Chainguard**. En repositorios públicos de código abierto, GitHub suministra atestación SLSA Nivel 2 [8] anclada al log público de transparencia Rekor (operado por Google y la Linux Foundation) a coste marginal cero. En repositorios privados corporativos, aunque GitHub Enterprise Cloud utiliza instancias privadas de Sigstore/cosign en lugar de Rekor público, esta prestación se incluye directamente en la licencia de usuario que la empresa ya abona. Ningún CISO empresarial contratará una startup de smart contracts con costes de gas cuando su plataforma CI/CD ya le genera atestaciones firmadas sin coste adicional.
+
+### Clúster B: Liquidación M2M, Cómputo y Protocolos de Agentes (16 Hipótesis)
+Centrado en pasarelas de pago por llamada API, facturación para inferencia de IA y micro-fianzas mediante el estándar HTTP 402 / x402 [9] en USDC sobre Base (`T-101`, `T-104`, `T-118`, `T-126`, `T-127`, `T-128`, `T-129`, `T-130`, `T-132`, `T-135`, `T-136`, `T-138`, `T-139`, `T-144`, `T-148`, `T-152`).
+
+- **Fortalezas**: Impecable viabilidad técnica. El protocolo x402 permite liquidaciones máquina a máquina sin registro de cuentas de usuario ni tarjetas de crédito manuales.
+- **El Punto de Ruptura**: Carencia absoluta de masa crítica de demanda y fricción de tesorería corporativa. En 2026, la economía de agentes de IA operando con tesorería on-chain autónoma es un nicho incipiente. Para los desarrolladores y empresas humanas, las APIs tradicionales (Stripe Billing, AWS Marketplace) eliminan por completo la pesadilla contable y la volatilidad fiscal asociada a tener criptoactivos en balance. En liquidación de divisas (`T-118`), el comercio B2B de pymes en Europa se resuelve de forma eficiente y segura mediante SEPA Instant y cuentas multi-divisa corporativas (Wise Business, Revolut Business con márgenes del 0.1–0.4%), donde el riesgo cambiario es nulo comparado con los diferenciales de entrada/salida de stablecoins (1.0–2.5%) más la carga tributaria asociada.
+
+### Clúster C: Eficacia Jurídica, Notarización y Resolución de Disputas (11 Hipótesis)
+Abarca el sellado de tiempo (`T-102`), arbitraje vinculante (`T-106`), penalizaciones contractuales (`T-110`), hashes ESG (`T-112`), monitorización de SLA (`T-113`), gobernanza de consorcios (`T-115`), licencias de PI (`T-123`), licitaciones públicas (`T-142`), sellado Tor con ZK (`T-145`), custodia de I+D (`T-151`) y remuneración por minería de textos (`T-153`).
+
+- **El Punto de Ruptura**: Régimen probatorio de la UE y realidad judicial. Bajo el Reglamento eIDAS (Reg. UE 910/2014) y eIDAS 2.0 (Reg. UE 2024/1183) [4], aunque el Art. 41.1 establece que no se denegarán efectos jurídicos a un sello electrónico por el mero hecho de no ser cualificado, únicamente los prestadores cualificados (QTSP bajo RFC 3161) gozan de **presunción legal de exactitud de fecha e integridad** en procedimientos judiciales. Un hash en una cadena pública L2 constituye mera prueba documental privada que exige peritaje técnico en juicio. Además, herramientas gratuitas consolidadas (FreeTSA) y utilidades cuasi-gratuitas sobre L2 (BaseStamp) dejan sin margen comercial a intermediarios de pago. Por último, la ejecución automática e inexorable de penalizaciones (`T-110`) colisiona con el Código Civil (Art. 1154), que faculta a los tribunales a moderar equitativamente las cláusulas penales.
+
+### Clúster D: Cadena de Suministro, Energía y Activos Físicos (19 Hipótesis)
+Comprende la verificación de certificados (`T-103`), telemetría de maquinaria (`T-105`), contratos de mantenimiento (`T-107`), leasing de maquinaria (`T-108`), trazabilidad de suministros (`T-109`), seguros paramétricos (`T-111`), licencias SaaS (`T-114`), credenciales IAM (`T-116`), reparto de ingresos (`T-117`), pago contra entrega (`T-119`), acuerdos de energía PPA (`T-120`), cartas de crédito (`T-121`), earnouts en fusiones (`T-122`), nóminas remotas (`T-124`), créditos de carbono (`T-125`), reputación de agentes (`T-131`), penalizaciones de inferencia (`T-133`), cadena de frío farma (`T-146`) y telemetría ESG (`T-149`).
+
+- **El Punto de Ruptura**: La Falacia del Oráculo Físico y los monopolios institucionales. Un contrato inteligente asegura que los datos no se alteran tras su escritura, pero **no puede garantizar que el sensor físico que midió la temperatura o la energía no estaba averiado, descalibrado o manipulado en el punto de captura**. Los departamentos de calidad confían en hardware cerrado homologado (SCADA con enclaves TPM/HSM) y bases de datos auditadas. En energía (`T-120`) y emisiones (`T-125`), los operadores nacionales (REE/OMIE en España) y los registros soberanos (EU ETS) ostentan monopolios regulatorios exclusivos que no admiten liquidación en contratos inteligentes privados.
+
+---
+
+## 4. Análisis Causal: Las Tres Heurísticas de Fallo Estructural
+
+La síntesis de las 53 hipótesis permite formalizar tres heurísticas que explican por qué los contratos inteligentes fracasan sistemáticamente en el B2B convencional:
+
+```mermaid
+flowchart TD
+    ROOT["<b>Heurísticas de Fallo Estructural en Adopción B2B de Smart Contracts</b>"]
+    
+    subgraph V1 ["<b>Heurística 1 · La Heurística del Incumbente Gratuito</b>"]
+        direction TB
+        V1_TXT["Las plataformas Web2 ofrecen registros criptográficos de transparencia (Sigstore, Rekor)<br/>respaldados por consorcios tecnológicos a coste marginal cero para la empresa.<br/><i>Los CISOs corporativos no pagarán gas en L2 cuando el estándar de la industria es gratuito.</i>"]
+    end
+
+    subgraph V2 ["<b>Heurística 2 · Vector de Fricción de Identidad Jurídica y AML</b>"]
+        direction TB
+        V2_TXT["La facturación formal comunitaria (Directiva IVA 2006/112/CE) y normas AML (4AMLD, DAC8)<br/>exigen partes identificadas con CIF/NIF y procedimientos KYC rigurosos.<br/><i>Replicar capas de cumplimiento sobre wallets pseudónimas reproduce el coste de un SaaS Web2.</i>"]
+    end
+
+    subgraph V3 ["<b>Heurística 3 · La Falacia del Oráculo Físico</b>"]
+        direction TB
+        V3_TXT["La blockchain asegura la inmutabilidad contable, pero no la veracidad física en origen.<br/>No resuelve fallos de calibración, averías o manipulación de sensores de campo.<br/><i>Si las partes confían en el hardware de origen, liquidar por API bancaria es más rápido y barato.</i>"]
+    end
+
+    ROOT --> V1
+    V1 --> V2
+    V2 --> V3
+```
+
+### 4.1. La Heurística del Incumbente Gratuito (Confianza Comoditizada)
+En **37 de las 53 hipótesis evaluadas (69.8%)**, la propuesta de valor pivotaba sobre la *inmutabilidad probatoria y la independencia de proveedor*. Sin embargo, la ingeniería Web2 moderna ya ha comoditizado los primitivos criptográficos distribuidos (árboles de Merkle, firmas OIDC sin clave, registros de transparencia RFC 6962) integrándolos en flujos estándar sin coste adicional.
+
+Cuando consorcios abiertos consolidados (Google, Microsoft, Cloudflare, Linux Foundation) mantienen registros de auditoría públicos y auditables, el cliente empresarial prefiere el respaldo institucional, la cobertura jurídica y el coste cero de esas plataformas frente a la descentralización teórica de una red L2.
+
+### 4.2. El Vector de Fricción de la Identidad Jurídica y AML
+Los contratos inteligentes operan entre claves públicas pseudónimas (`0x...`). Sin embargo, el comercio B2B europeo exige de forma ineludible:
+1. Facturas mercantiles formales con NIF/CIF emisor y receptor, domicilios sociales y tipos de IVA aplicables (Directiva 2006/112/CE).
+2. Cumplimiento de directivas antiblanqueo (Directiva (UE) 2015/849 - 4AMLD y Directiva (UE) 2023/2226 - DAC8), exigiendo identificación fehaciente del titular real de los fondos.
+3. Tratamiento contable conforme a PGC/NIIF respecto a la tenencia de criptoactivos y diferencias de cambio.
+
+Cualquier servicio que pretenda habilitar pagos B2B on-chain debe construir middleware centralizado de facturación, retención y verificación KYC, lo que destruye la supuesta eficiencia nativa de la blockchain y replica la estructura de costes de un SaaS tradicional.
+
+### 4.3. La Falacia del Oráculo Físico (*Garbage In, Garbage Out*)
+Múltiples hipótesis plantearon contratos inteligentes como árbitros automáticos de penalizaciones comerciales o seguros paramétricos vinculados a hechos del mundo físico (retrasos de transporte, rotura de cadena de frío, cortes de servicio).
+
+En todos los casos, el contrato inteligente resulta redundante: si ambas partes ya acuerdan confiar en la fuente de datos que alimenta el contrato (un GPS de contenedor o un registrador de temperatura homologado), liquidar la penalización mediante una API bancaria o una cuenta de crédito es más rápido, más económico y evita inmovilizar liquidez en depósitos de garantía on-chain.
+
+---
+
+## 5. Agenda de Investigación Futura: Conjeturas y Utilidad Condicionada
+
+El rechazo sistemático de las aplicaciones B2B tradicionales no implica que los contratos inteligentes carezcan de utilidad. Por el contrario, **delimita con precisión matemática dónde comienza su ventaja competitiva defendible**: en aquellos escenarios donde **las arquitecturas centralizadas Web2 no pueden funcionar por diseño técnico, político o legal**.
+
+Proponemos tres direcciones de investigación de frontera formuladas como conjeturas con **criterios explícitos de falsabilidad**:
+
+**Tabla 2:** Direcciones de Investigación Prioritarias y Criterios de Falsabilidad.
+
+| Dirección Frontera | Habilitador Técnico Clave | Utilidad No Sustituible | Criterio de Falsabilidad (Condiciones de Validación) |
+| :--- | :--- | :--- | :--- |
+| **1. Coordinación entre Agentes Autónomos (A2A)** | ERC-8004 + Protocolo HTTP 402 (x402) | Micro-liquidación programática para modelos de IA autónomos sin personalidad jurídica, cuentas bancarias ni apoderamiento mercantil. | Despliegue operativo real de enjambres de agentes gestionando > $100k en tesorería y ejecutando > 10.000 tx mensuales sin pasarelas fiat humanas. |
+| **2. Cumplimiento Verificable con Conocimiento Cero** | Pruebas ZK-SNARKs (ZK-SLA) | Prueba matemática de cumplimiento normativo (CRA) o SLA sin exponer código fuente, secretos industriales ni grafos de dependencias. | Adopción formal por organismos reguladores de la UE o compras de defensa aceptando pruebas ZK en sustitución de depósitos de código fuente en custodia. |
+| **3. Infraestructura Resistente a la Censura** | Enrutamiento Onion Tor + Rollups L2 | Liquidación ininterrumpible y cómputo distribuido en jurisdicciones donde los procesadores de pago centralizados bloquean el servicio. | Operación sostenida de nodos de cómputo independientes en contextos de veto de servicio bajo latencias operativas viables. |
+
+### Dirección 1: Coordinación Autónoma Agente a Agente (ERC-8004 + x402)
+- **Contexto**: Las empresas humanas y desarrolladores siempre preferirán transferencias bancarias o tarjetas corporativas por comodidad fiscal. Sin embargo, los **agentes autónomos de IA** (instancias locales de LLM, enjambres autónomos) carecen de personalidad jurídica, no pueden abrir cuentas bancarias ni firmar contratos mercantiles.
+- **Conjetura**: Los raíles de pago abiertos basados en el estándar de identidad de agentes **ERC-8004** y el protocolo **x402** permitirán a los agentes adquirir computación, almacenamiento e inferencia contextual de forma programática y sin intermediación humana.
+- **Prueba de Falsabilidad**: Esta conjetura queda falsificada si los protocolos centralizados de pago agéntico (como las tarjetas virtuales de agente de Stripe/Visa o Google AP2) ofrecen identidades subsidiarias vinculadas al operador humano con KYC delegado, haciendo innecesarias las wallets on-chain.
+
+### Dirección 2: Cumplimiento Verificable mediante Conocimiento Cero (ZK-SLA)
+- **Contexto**: En consorcios industriales aeroespaciales o de defensa, las compañías rechazan categóricamente publicar manifiestos de software o telemetría en registros abiertos de transparencia (como Sigstore/Rekor [7]) porque revela dependencias y secretos comerciales.
+- **Conjetura**: Las pruebas ZK-SNARKs pueden demostrar matemáticamente que un software cumple con la directiva CRA o que se satisfizo un SLA sin revelar el código fuente ni la identidad de los contribuyentes.
+- **Prueba de Falsabilidad**: Esta conjetura queda falsificada si los enclaves de computación confidencial (Intel TDX, AMD SEV-SNP) proporcionan atestaciones criptográficas auditadas a un coste de computación 100 veces menor que las pruebas ZK.
+
+### Dirección 3: Infraestructura Operativa Resistente a la Censura
+- **Contexto**: Los proveedores Web2 centralizados (Stripe, PayPal, AWS, Cloudflare) operan bajo restricciones territoriales y están sujetos a cancelaciones unilaterales de cuenta y sanciones geopolíticas.
+- **Conjetura**: Protocolos de pago sobre capas de transporte cifradas (Tor, I2P) combinados con rollups ZK en L2 facilitan micro-liquidaciones resilientes para investigación de seguridad y comunicaciones inmunes al bloqueo.
+- **Prueba de Falsabilidad**: Esta conjetura queda falsificada si la latencia del enrutamiento cebolla (> 2.500 ms) y la fragmentación de liquidez hacen inviable la coordinación de software frente a redes VPN descentralizadas (WireGuard).
+
+---
+
+## 6. Conclusiones
+
+La evaluación sistemática de 53 hipótesis de mercado demuestra que intentar trasladar los flujos transaccionales B2B convencionales a contratos inteligentes representa un error básico de arquitectura. En la gran mayoría de casos de negocio, la autoridad centralizada no es una ineficiencia a erradicar, sino una característica intencionada que aporta certidumbre jurídica, sub-milisegundos de ejecución, amparo judicial y coste marginal cero.
+
+El valor principal de una metodología de *due diligence* adversarial no es generar un falso optimismo, sino **evitar el desperdicio masivo de capital y talento técnico en soluciones que buscan desesperadamente un problema**. Los contratos inteligentes no van a sustituir a las herramientas Web2 de las empresas humanas; su destino reside en ser el sustrato financiero y probatorio exclusivo para la economía emergente de agentes de IA autónomos que operen más allá de las fronteras de la banca tradicional.
+
+---
+
+## 7. Referencias y Fuentes Regulatorias
+
+[1] **Parlamento Europeo y Consejo** (2023). *Reglamento (UE) 2023/1114 relativo a los mercados de criptoactivos (MiCA)*. Diario Oficial de la Unión Europea, L 150/40.  
+[2] **Parlamento Europeo y Consejo** (2024). *Reglamento (UE) 2024/2847 sobre los requisitos horizontales de ciberseguridad para los productos con elementos digitales (Ley de Ciberresiliencia - CRA)*. DOUE, L 2024/2847.  
+[3] **Consejo de la Unión Europea** (2023). *Directiva (UE) 2023/2226 por la que se modifica la Directiva 2011/16/UE en el ámbito de la fiscalidad (DAC8)*. DOUE, L 2023/2226.  
+[4] **Parlamento Europeo y Consejo** (2024). *Reglamento (UE) 2024/1183 por el que se modifica el Reglamento (UE) n.º 910/2014 en lo relativo al establecimiento del marco para una identidad digital europea (eIDAS 2.0 y libros mayores electrónicos cualificados)*. DOUE, L 2024/1183.  
+[5] **Parlamento Europeo y Consejo** (2015). *Directiva (UE) 2015/849 relativa a la prevención de la utilización del sistema financiero para el blanqueo de capitales o la financiación del terrorismo (4AMLD)*. DOUE, L 141/73.  
+[6] **Cortes Generales de España** (1992). *Ley 37/1992 del Impuesto sobre el Valor Añadido (LIVA)*, Art. 71.3 (Servicios prestados por vía electrónica). BOE-A-1992-28740.  
+[7] **Proyecto Sigstore** (2024). *Sigstore: Arquitectura de Firma de Software y Transparencia Criptográfica*. OpenSSF / Linux Foundation. `https://docs.sigstore.dev`.  
+[8] **OpenSSF** (2023). *Especificación de Niveles de Cadena de Suministro para Artefactos de Software (SLSA) v1.0*. `https://slsa.dev/spec/v1.0/`.  
+[9] **Coinbase Developer Platform** (2025). *x402: Protocolo Abierto para Pagos entre Máquinas en Base*. `https://github.com/coinbase/x402`.  
+[10] **Wüst, K., & Gervais, A.** (2018). *Do you need a blockchain?* In 2018 Crypto Valley Conference on Blockchain Technology (CVCBT) (pp. 45-54). IEEE.  
+[11] **A.P. Moller - Maersk & IBM** (2022). *Comunicado Oficial de Disolución de TradeLens: Lecciones sobre Adopción de DLT en la Industria*. Nota de Prensa, 29 de noviembre de 2022.  
+[12] **Global Trade Review** (2022). *El consorcio bancario blockchain we.trade cesa operaciones y entra en liquidación*. GTR News, junio de 2022.  
+[13] **Accenture** (2022). *Revisión Técnica Independiente del Proyecto DLT CHESS de la Bolsa de Australia*. Informe Técnico de Evaluación ASX.  
+[14] **Chainguard** (2024). *Enterprise Software Bill of Materials (SBOM) and Continuous Artifact Attestation*. Whitepaper Técnico.  
+[15] **Comisión Europea** (2022). *Directiva 2006/112/CE relativa al sistema común del impuesto sobre el valor añadido*. Texto refundido.
+
+---
+
+## 8. Apéndice: Matriz Maestra de las 53 Hipótesis Evaluadas
+
+**Tabla 3 (Matriz Maestra de Evaluación):** Catálogo Completo de las 53 Hipótesis B2B Evaluadas.
+
+La siguiente tabla recoge las 53 hipótesis de investigación evaluadas, detallando su identificador, denominación, clúster temático, puntuaciones multidimensionales (**L**: Legal, **T**: Técnico, **E**: Económico, **R**: Robustez frente a Incumbentes), alternativa incumbente dominante y factor determinante de descarte:
+
+| ID | Denominación de la Hipótesis | Clúster Temático | Puntuaciones (L/T/E/R) | Alternativa Incumbente Dominante | Factor Crítico de Descarte |
+| :--- | :--- | :--- | :---: | :--- | :--- |
+| **T-101** | Pasarela API de IA con Pago por Llamada (x402) | Liquidación M2M y Cómputo | `L:6.0 T:8.0 E:7.5 R:3.0` | Stripe Payments / Cloudflare API Shield | Stripe y Cloudflare resuelven micropagos por API con tarjetas corporativas; el volumen de agentes M2M con fondos propios es insuficiente. |
+| **T-102** | Protocolo de Sellado de Tiempo y Notarización B2B | Eficacia Jurídica y Notarización | `L:5.0 T:8.0 E:8.0 R:2.0` | BaseStamp / Prestadores Cualificados eIDAS (RFC 3161) | FreeTSA y BaseStamp ofrecen sellado por céntimos; las cadenas públicas carecen de presunción legal de exactitud cualificada bajo eIDAS 2.0. |
+| **T-103** | Verificación Automatizada de Certificados de Calidad | Cadena de Suministro y Activos Físicos | `L:5.5 T:7.0 E:7.5 R:2.0` | Portales Oficiales de Certificación (AENOR, DNV APIs) | Los organismos de certificación ya operan registros públicos gratuitos y APIs REST directas sin necesidad de intermediarios blockchain. |
+| **T-104** | Liquidación de Contratos B2B por Hitos Verificados | Liquidación M2M y Cómputo | `L:7.0 T:8.0 E:7.0 R:2.0` | Cuentas Escrow Bancarias / Stripe Custom Connect | El depósito en garantía regulado y la banca comercial aportan cobertura contractual estándar y amparo judicial directo en caso de disputa. |
+| **T-105** | Anclaje de Telemetría Industrial con Multi-Oráculo | Cadena de Suministro y Activos Físicos | `L:6.0 T:6.5 E:6.0 R:3.0` | SCADA Siemens/Rockwell + Firmas en Silicio TPM/HSM | Los controladores industriales firman a nivel de hardware con TPM/HSM; la replicación en blockchain no impide la manipulación física en origen. |
+| **T-106** | Protocolo de Arbitraje Comercial Vinculante On-Chain | Eficacia Jurídica y Notarización | `L:4.0 T:7.0 E:5.5 R:2.0` | Cámaras de Arbitraje (Convenio de Nueva York de 1958) | El arbitraje mercantil se rige por el Convenio de Nueva York; los contratos inteligentes carecen de fuerza ejecutoria judicial sin mediación humana. |
+| **T-107** | Contratos de Mantenimiento Industrial Programático | Cadena de Suministro y Activos Físicos | `L:6.0 T:7.0 E:6.5 R:3.0` | Adeudos Directos SEPA B2B / SAP Service Cloud | Los adeudos SEPA B2B gestionan pagos recurrentes sin obligar a los talleres industriales a asumir la operativa y volatilidad de wallets cripto. |
+| **T-108** | Tokenización de Flujos de Leasing de Maquinaria (RWA) | Cadena de Suministro y Activos Físicos | `L:4.5 T:6.0 E:6.0 R:2.0` | Vehículos de Titulización Tradicionales / SPVs | MiFID II y CNMV catalogan los derechos de cobro fraccionados como valores negociables; el sobrecoste de emisión y folleto anula la rentabilidad. |
+| **T-109** | Trazabilidad de Cadena de Suministro con Evidencia | Cadena de Suministro y Activos Físicos | `L:6.0 T:8.0 E:6.5 R:2.0` | Estándar Global GS1 EPCIS / SAP Logistics Business Net | Los estándares de la industria (GS1) operan sobre mensajería corporativa estándar sin fricción de gas ni volatilidad de tokens. |
+| **T-110** | Ejecución Automática de Penalizaciones Contractuales | Eficacia Jurídica y Notarización | `L:3.5 T:7.0 E:6.5 R:3.0` | Vía Judicial Ordinaria / Moderación Judicial | Las cláusulas penales están sujetas a moderación judicial (Código Civil Art. 1154); la ejecución irreversible sin tutela judicial es legalmente nula. |
+| **T-111** | Monitorización y Liquidación de Seguros Paramétricos | Cadena de Suministro y Activos Físicos | `L:4.5 T:7.0 E:8.0 R:2.0` | Reaseguradoras Homologadas / Munich Re Oracles | Las aseguradoras deben mantener reservas auditadas bajo Solvencia II; los oráculos meteorológicos siguen siendo un punto centralizado de fallo. |
+| **T-112** | Gestión Programática de Evidencia ESG para CSRD | Eficacia Jurídica y Notarización | `L:5.0 T:6.0 E:5.5 R:2.5` | Auditorías ESG Certificadas (Big Four, Portales CSRD) | La directiva CSRD exige verificación formal por auditores humanos acreditados en memorias consolidadas; un hash no valida la veracidad ecológica. |
+| **T-113** | Monitorización de SLA de Servicios Digitales con Hashes | Eficacia Jurídica y Notarización | `L:6.0 T:7.0 E:7.5 R:2.0` | Informes de Observabilidad Firmados (Datadog, Dynatrace) | Las plataformas de observabilidad ofrecen reportes firmados aceptados universalmente en contratos de externalización TI sin necesidad de blockchain. |
+| **T-114** | Gestión de Licencias y Permisos SaaS Multi-Tenant | Cadena de Suministro y Activos Físicos | `L:6.5 T:7.0 E:6.5 R:2.0` | Okta / Auth0 / Directorios SAML Corporativos | Auth0 y Okta gestionan licenciamiento y RBAC de forma nativa con Active Directory y Azure AD sin introducir latencia on-chain. |
+| **T-115** | Gobernanza de Consorcios con Staking de Cumplimiento | Eficacia Jurídica y Notarización | `L:4.0 T:7.0 E:4.0 R:2.0` | Pactos de Socios Notariados y Estatutos Sociales | Los consorcios industriales se rigen por pactos notariales mercantiles; el staking de tokens carece de validez estatutaria corporativa. |
+| **T-116** | Protocolo IAM Multi-Tenant con Credenciales On-Chain | Cadena de Suministro y Activos Físicos | `L:5.5 T:5.0 E:6.5 R:2.0` | Microsoft Entra ID / Okta Workforce Identity | Los estándares OIDC y SAML 2.0 dominan la federación de identidades corporativas; las credenciales en cadena no integran con firewalls perimetrales. |
+| **T-117** | Reparto Automatizado de Ingresos B2B (*Revenue Split*) | Cadena de Suministro y Activos Físicos | `L:4.5 T:8.0 E:8.5 R:2.5` | Stripe Connect Custom / Módulos de Facturación ERP | La división de ingresos corporativos exige retenciones fiscales por IRPF/IVA y facturación cruzada que las transferencias planas no gestionan. |
+| **T-118** | Liquidación de Cambio de Divisas (FX) B2B Transfronterizo | Liquidación M2M y Cómputo | `L:5.0 T:7.0 E:8.0 R:3.0` | SEPA Instant / Wise Business / Revolut Business | SEPA Instant y las cuentas multi-divisa ofrecen márgenes de cambio de solo 0.1–0.4% sin fricción contable frente a los diferenciales de stablecoins. |
+| **T-119** | Protocolo de Pago Condicionado a Entrega Logística | Cadena de Suministro y Activos Físicos | `L:6.0 T:7.0 E:7.5 R:3.0` | APIs de Albarán Electrónico e-CMR / Transporeon | La confirmación de entrega física se apoya en cartas de porte e-CMR; las APIs logísticas tradicionales ya automatizan la liquidación al firmar. |
+| **T-120** | Liquidación Programática de Acuerdos Energéticos PPA | Cadena de Suministro y Activos Físicos | `L:4.0 T:7.0 E:7.0 R:2.0` | Cámara de Liquidación Oficial de Electricidad (REE / OMIE) | Los operadores de red centralizan y casan la liquidación eléctrica; ningún contrato inteligente privado puede sustituir los saldos oficiales del sistema. |
+| **T-121** | Cartas de Crédito Automatizadas para Comercio Exterior | Cadena de Suministro y Activos Físicos | `L:4.5 T:6.0 E:5.5 R:2.0` | Mensajería Bancaria SWIFT MT700 / Créditos Tradicionales | Las cartas de crédito operan bajo reglas UCP 600 de la Cámara de Comercio Internacional; los bancos rechazan ejecutar garantías sin respaldo legal. |
+| **T-122** | Custodia y Liberación de Earnouts en Fusiones (M&A) | Cadena de Suministro y Activos Físicos | `L:4.0 T:6.0 E:4.0 R:2.0` | Depósitos Notariales en Garantía / Escrow Bancario | Los hitos de EBITDA en fusiones y adquisiciones son cálculos contables complejos; el capital privado no inmoviliza fondos en smart contracts opacos. |
+| **T-123** | Liquidación Programática de Regalías de Propiedad Intelectual | Eficacia Jurídica y Notarización | `L:4.5 T:5.0 E:4.5 R:2.0` | Auditorías Certificadas de Ventas / SAP Revenue Billing | El cobro de regalías depende de auditorías de ventas comerciales externas; la conciliación contable impide una liquidación automática en tiempo real. |
+| **T-124** | Liquidación de Nóminas Transfronterizas para Teletrabajo | Cadena de Suministro y Activos Físicos | `L:4.0 T:6.0 E:6.5 R:3.0` | Deel / Remote.com / Transferencias Wise Multi-Divisa | La legislación laboral exige retribución en moneda de curso legal; pagar salarios en criptoactivos traslada riesgo y acarrea sanciones de Trabajo. |
+| **T-125** | Liquidación y Cancelación de Créditos de Carbono | Cadena de Suministro y Activos Físicos | `L:4.0 T:6.0 E:5.5 R:2.0` | Registro Oficial Europeo EU ETS / Registro Verra | Los registros oficiales de derechos de emisión son monopolios de los Estados; los créditos tokenizados paralelos carecen de cómputo contable legal. |
+| **T-126** | Micro-Arbitraje de Liquidez entre Agentes en DEX L2 | Liquidación M2M y Cómputo | `L:6.0 T:7.0 E:6.5 R:2.0` | Bots HFT en Co-ubicación / APIs de Creadores Flashbots | El arbitraje de liquidez en exchanges descentralizados está copado por creadores de mercado institucionales con conexiones de ultra-baja latencia. |
+| **T-127** | Liquidación entre Agentes con ERC-4337 y Escrow | Liquidación M2M y Cómputo | `L:6.5 T:7.0 E:6.5 R:3.0` | Temporal.io / Protocolos de Pago de Agentes de Stripe | La abstracción de cuentas ERC-4337 introduce sobrecostes de bundlers y complejidad frente al uso de claves de API corporativas y servidores OAuth. |
+| **T-128** | Orquestador de Agentes con Staking de Garantía | Liquidación M2M y Cómputo | `L:6.0 T:7.0 E:6.5 R:2.0` | Temporal.io / Celery + Líneas de Crédito Corporativas | El coste de oportunidad de inmovilizar colateral en cadena supera con creces el coste de suscribir acuerdos de nivel de servicio tradicionales. |
+| **T-129** | Market Maker de Agentes para Computación en la Nube | Liquidación M2M y Cómputo | `L:6.0 T:7.0 E:4.0 R:2.0` | Proveedores Cloud On-Demand (RunPod, Lambda, Vast.ai) | Los proveedores de GPUs en la nube ofrecen instancias bajo demanda con facturación mensual en tarjeta y soporte 24/7 sin exigencia de prepago cripto. |
+| **T-130** | Escrow Condicionado Criptográficamente para Negociadores IA | Liquidación M2M y Cómputo | `L:5.0 T:7.0 E:6.5 R:2.0` | DocuSign IAM / Stripe Connect Custom Escrow | Los agentes de IA carecen de personalidad jurídica y responsabilidad civil; los conflictos derivados de alucinaciones quedan fuera de la ley. |
+| **T-131** | Registro Descentralizado de Reputación para Agentes IA | Cadena de Suministro y Activos Físicos | `L:6.0 T:7.0 E:5.5 R:2.0` | Registros DNS Verificados (RFC 8482) / Hugging Face Verified | Los registros de reputación descentralizados son altamente vulnerables a ataques Sybil; las empresas confían en la titularidad de dominios corporativos. |
+| **T-132** | Coordinación Multi-Agente con Pago por Inferencia | Liquidación M2M y Cómputo | `L:6.0 T:6.0 E:5.5 R:2.0` | Pasarelas de Modelos Fundacionales (OpenAI, Anthropic APIs) | Los grandes proveedores de modelos ofrecen APIs directas con facturación mensual consolidada; el micropago por token en L2 carece de demanda. |
+| **T-133** | Verificación de Calidad de Inferencia con Slashing | Cadena de Suministro y Activos Físicos | `L:5.5 T:6.0 E:5.5 R:2.0` | Cleanlab / DeepEval / Evaluación con Humanos en el Bucle | La calidad de la inferencia en modelos generativos es subjetiva; un contrato inteligente no puede determinar de forma binaria si hubo alucinación. |
+| **T-134** | Mercado y Liquidación de Datos de Entrenamiento de IA | Integridad de Software y Procedencia | `L:5.0 T:7.0 E:7.0 R:2.0` | Hugging Face Datasets / Plataformas de Datos (Scale AI) | Los proveedores de datos comerciales imponen licencias cerradas; los raspadores web extraen datasets públicos omitiendo cualquier micropago. |
+| **T-135** | Pool de Computación GPU Distribuida con Prueba de Trabajo | Liquidación M2M y Cómputo | `L:6.0 T:7.0 E:5.5 R:2.0` | Clústeres Unificados en Centros de Datos (AWS, GCP) | Los ordenadores distribuidos de voluntarios no pueden competir en latencia ni en ancho de banda de red InfiniBand con centros de datos unificados. |
+| **T-136** | Utilidad de Cómputo x402 para Agentes ERC-8004 | Liquidación M2M y Cómputo | `L:7.0 T:7.5 E:7.5 R:3.0` | Stripe Payments / Cloudflare Workers Payments | Pese a su solidez conceptual, el ecosistema de agentes carece todavía de volumen suficiente con saldos on-chain para sostener la rentabilidad. |
+| **T-137** | Verificación y Marca de Agua de Pesos de Modelos IA | Integridad de Software y Procedencia | `L:6.5 T:8.0 E:5.5 R:2.0` | Hugging Face Hub / Firmas Criptográficas SHA-256 + GPG | Hugging Face y los repositorios de modelos verifican firmas GPG y sumas SHA-256 de forma abierta y sin comisiones para toda la industria. |
+| **T-138** | Servidor de Inferencia Privado en Red Tor con Escrow | Liquidación M2M y Cómputo | `L:5.5 T:7.0 E:6.5 R:2.0` | Servidores Locales Auto-hospedados (vLLM / Ollama con WireGuard)| El enrutamiento cebolla de Tor introduce una latencia severa (> 2.500 ms) incompatible con el streaming fluido de modelos de lenguaje en tiempo real. |
+| **T-139** | Derivados Financieros sobre Potencia de Cómputo GPU | Liquidación M2M y Cómputo | `L:4.0 T:7.5 E:6.5 R:2.0` | Mercados de Futuros Oficiales (CME) / Reservas en la Nube | Los derivados sobre capacidad de cómputo son derivados financieros complejos regulados por MiFID II, requiriendo licencias bursátiles millonarias. |
+| **T-140** | Atestación Criptográfica de Compilación de Software (SLSA) | Integridad de Software y Procedencia | `L:8.0 T:8.5 E:7.5 R:2.0` | GitHub Actions / Sigstore (Rekor) / Chainguard | GitHub Actions ofrece atestaciones SLSA Nivel 2 gratuitas respaldadas por Sigstore/Rekor; la CRA y DORA admiten firmas PKI sin blockchain. |
+| **T-141** | Licenciamiento Medido de Datos Abiertos con Liquidación | Integridad de Software y Procedencia | `L:5.0 T:7.5 E:6.5 R:2.0` | Portales CKAN de Datos Abiertos / APIs Públicas REST | La Ley de Datos de la UE (Art. 5) prohíbe el cobro por datos públicos esenciales; los portales institucionales los distribuyen gratis mediante APIs. |
+| **T-142** | Verificación Programática de Ofertas en Contratación Pública | Eficacia Jurídica y Notarización | `L:4.5 T:5.5 E:6.5 R:2.0` | Plataforma de Contratación del Sector Público (PLACSP / FNMT)| La contratación pública opera obligatoriamente bajo certificados de la FNMT y registros ministeriales cerrados por imperativo legal. |
+| **T-143** | Atestación de SBOM On-Chain para la Cyber Resilience Act | Integridad de Software y Procedencia | `L:6.5 T:8.5 E:7.0 R:2.0` | Dependency-Track / CycloneDX / Chainguard Enterprise | Las utilidades consolidadas de código abierto y los proveedores empresariales generan y firman SBOMs sin necesidad de incurrir en gas blockchain. |
+| **T-144** | Enrutamiento de Pagos P2P para Agentes Resistentes a Censura | Liquidación M2M y Cómputo | `L:5.0 T:7.0 E:6.0 R:2.0` | Tarjetas Corporativas Virtuales (Stripe Issuing, Brex) | El enrutamiento de pagos P2P en redes cifradas sufre fragmentación de liquidez y elevadas tasas de fallo en las transacciones. |
+| **T-145** | Protocolo de Sellado Soberano en Tor/P2P con Pruebas ZK | Eficacia Jurídica y Notarización | `L:5.0 T:6.5 E:7.0 R:2.5` | Sellado Cualificado eIDAS (RFC 3161) / FreeTSA | Los tribunales exigen sellado cualificado eIDAS; los sellos anónimos basados en ZK carecen de presunción legal de exactitud en juicio. |
+| **T-146** | Atestación de Cadena de Frío para Trazabilidad Farmacéutica| Cadena de Suministro y Activos Físicos | `L:6.0 T:8.0 E:7.5 R:2.0` | Registradores de Datos Calibrados y Homologados (Sensitech) | Las Buenas Prácticas de Distribución (BPD) de la UE exigen certificados de calibración física firmados por auditores, no hashes en cadena. |
+| **T-147** | Atestación de Entrenamiento para Modelos de Frontera de IA | Integridad de Software y Procedencia | `L:6.5 T:7.5 E:6.0 R:2.0` | Trazabilidad de Experimentos (Weights & Biases / MLflow) | Auditar terabytes de checkpoints de entrenamiento genera un sobrecoste de verificación que supera los presupuestos ordinarios bajo la Ley de IA. |
+| **T-148** | Cómputo P2P en Redes Ocultas con Balanceo en Conocimiento Cero| Liquidación M2M y Cómputo | `L:5.5 T:6.0 E:6.5 R:2.0` | Akash Network / Vast.ai con Pasarelas Tradicionales | La complejidad operativa y la ausencia de demanda constante hacen que los pools P2P con ZK sean inviables frente a nubes centralizadas. |
+| **T-149** | Telemetría Criptográfica Industrial para Cumplimiento ESG | Cadena de Suministro y Activos Físicos | `L:6.0 T:7.5 E:7.0 R:2.0` | Flujos de Auditoría ESG Certificados por Firmas Auditoras | Los informes de sostenibilidad de la CSRD se basan en memorias anuales auditadas por firmas financieras sin exigir hashing continuo de sensores. |
+| **T-150** | Procedencia de Datasets de Entrenamiento y Derechos de Autor | Integridad de Software y Procedencia | `L:5.0 T:6.5 E:6.0 R:2.0` | Data Provenance Initiative / Hugging Face Datasets | Las reclamaciones de propiedad intelectual se litigan civilmente sobre la totalidad del corpus, no mediante micropagos por registro individual. |
+| **T-151** | Custodia de Propiedad Intelectual en Consorcios de I+D | Eficacia Jurídica y Notarización | `L:5.5 T:6.5 E:6.0 R:2.0` | Acuerdos de Consorcio Estándar DESCA (Horizonte Europa) | Los proyectos de Horizonte Europa operan bajo modelos contractuales DESCA normalizados y validados por la Comisión Europea. |
+| **T-152** | Atestación con Conocimiento Cero para la Economía de Agentes | Liquidación M2M y Cómputo | `L:7.0 T:8.5 E:7.5 R:3.5` | Pasarelas de Pago para Agentes de Stripe / Google AP2 | Identificada como frontera de alto potencial futuro: viable exclusivamente para agentes de IA autónomos sin identidad jurídica humana. |
+| **T-153** | Remuneración por Minería de Textos y Datos (TDM) | Eficacia Jurídica y Notarización | `L:4.5 T:6.0 E:5.5 R:2.0` | Acuerdos Directos de Licencia con Grandes Editores | La Directiva de Derechos de Autor (2019/790, Art. 4) establece una excepción legal para la minería de textos y datos que elude el micro-pago. |
+
+---
+
+*Fin del Informe Técnico v1.1 (ES). Documento preparado para depósito público e indexación formal.*

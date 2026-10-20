@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this dataset or technical report, please cite it as below."
+authors:
+  - family-names: "Costumero Burgos"
+    given-names: "Jose Luis"
+title: "A Systematic Feasibility Analysis of Smart Contract-Based B2B Services: Lessons from an Adversarial Evaluation of 53 Market Hypotheses and a Future Research Agenda"
+version: 1.1.0
+date-released: 2026-10-20
+url: "https://github.com/jlcostumero/b2b-smart-contracts-feasibility"
+type: report
+keywords:
+  - smart-contracts
+  - b2b-saas
+  - due-diligence
+  - negative-results
+  - web3

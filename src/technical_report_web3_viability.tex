@@ -1,0 +1,90 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{microtype}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue
+}
+
+\title{\textbf{\LARGE A Systematic Feasibility Analysis of Smart Contract-Based B2B Services:}\\ \Large Lessons from an Adversarial Evaluation of 53 Market Hypotheses and a Future Research Agenda}
+\author{\textbf{Jose Luis Costumero Burgos}\thanks{Author's Note \& Disclaimer: The research, analyses, and conclusions presented in this document were conducted entirely on a personal and independent basis outside of professional employment. The views expressed herein belong strictly to the author and do not reflect or represent the positions, strategies, or opinions of any employer, affiliated company, or organization.}\\ \small Independent Researcher}
+\date{Technical Report v1.1 --- October 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\noindent Academic and industrial literature on Distributed Ledger Technology (DLT) has consistently argued that smart contracts constitute the foundational architecture for a new generation of B2B digital services characterized by disintermediation, tamper-proof evidentiary auditability, and autonomous machine-to-machine (M2M) programmatic settlement. Nevertheless, enterprise adoption of public and Layer-2 (L2) networks remains negligible when compared to established centralized Web2 infrastructures. In this work, we present a structured adversarial evaluation of \textbf{53 commercial hypotheses and business models for smart contract-based B2B services} across EVM-compatible Layer-2 networks (Base, Arbitrum One). Each hypothesis was subjected to a sequential five-stage adversarial filtering protocol: European Union regulatory and fiscal compliance (MiCA, DAC8, GDPR, and eIDAS 2.0), technical feasibility and oracle dependency, unit economics against real-time L2 gas costs, enterprise B2B sales and operational friction, and an adversarial Red-Teaming counter-analysis against dominant market incumbents. Our findings reveal an attrition rate of 100\% across conventional enterprise domains: none of the 53 hypotheses established an economically defensible competitive moat against established, zero-marginal-cost Web2 alternatives. Drawing from this empirical corpus, we formalize three structural failure heuristics: (1) the \textit{Free Incumbent Heuristic}, (2) the \textit{Legal Identity \& AML Friction Vector}, and (3) the \textit{Physical Sensor Oracle Fallacy}. Finally, we outline a \textbf{Future Research Agenda} framing three frontier domains as conditional conjectures: pure agent-to-agent (A2A) coordination, zero-knowledge verifiable compliance, and censorship-resistant infrastructure.
+\end{abstract}
+
+\section{Introduction and Problem Formulation}
+Since Nick Szabo's initial formalization of smart contracts in 1994, the core theoretical promise of distributed state machines has been the radical reduction of transaction costs by replacing trusted intermediaries with deterministic code. Despite sub-cent gas fees under EIP-4844 and regulatory clarity under MiCA (Regulation EU 2023/1114), enterprise adoption in non-financial B2B sectors has systematically stalled. Prominent industry precedents---including the discontinuation of TradeLens (Maersk \& IBM), the insolvency of the we.trade banking consortium, the closure of Contour, and the \$170M write-down of the Australian Stock Exchange CHESS DLT replacement---corroborate the decision model of W\"ust \& Gervais (2018): when established centralized third parties are available and legally accountable, distributed ledgers introduce strictly negative utility in throughput, cost, and governance.
+
+\section{Multi-Stage Adversarial Evaluation Methodology}
+The evaluation framework filters hypotheses through a stage-gated elimination funnel:
+\begin{enumerate}
+    \item \textbf{Filter 1: European Union Regulatory and Tax Compliance} (MiCA 2023/1114, DAC8 2023/2226, 4AMLD 2015/849, eIDAS 2.0 2024/1183, and VAT Directive 2006/112/EC).
+    \item \textbf{Filter 2: Technical Feasibility and Oracle Dependency} (L2 gas profiles, HTTP 402 / x402 protocol compatibility, oracle attack surface).
+    \item \textbf{Filter 3: Unit Economics and Sustainability} (Contribution margins net of gas and RPC overhead).
+    \item \textbf{Filter 4: Enterprise Go-to-Market Friction} (Procurement friction, corporate key custody liability, balance-sheet volatility).
+    \item \textbf{Filter 5: Adversarial Red-Teaming} (Stress-testing against zero-marginal-cost Web2 incumbents like Sigstore, Stripe, and Okta).
+\end{enumerate}
+
+\section{Hypothesis Taxonomy and Cluster Findings}
+\begin{table}[h]
+\centering
+\caption{Reconciled Distribution of Evaluated Hypotheses by Operational Domain.}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Functional Cluster} & \textbf{Count} & \textbf{Proportion} \\
+\midrule
+Cluster A: Software Integrity, Artifact Provenance \& SBOM & 7 & 13.2\% \\
+Cluster B: M2M Settlement, Compute \& Autonomous Agent Protocols & 16 & 30.2\% \\
+Cluster C: Legal Evidentiary, Notarization \& Dispute Resolution & 11 & 20.8\% \\
+Cluster D: Supply Chain, Energy \& Physical Asset Operations & 19 & 35.8\% \\
+\midrule
+\textbf{Total Evaluated Corpus} & \textbf{53} & \textbf{100.0\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent Across the 53 hypotheses, the funnel attrition breakdown is: Filter 1 eliminated 14 hypotheses; Filter 2 eliminated 8; Filter 3 eliminated 7; Filter 4 eliminated 9; and Filter 5 eliminated the remaining 15 hypotheses. Exactly zero hypotheses advanced to enterprise testnet deployment (Stage 6).
+
+\section{Causal Analysis: The Three Structural Failure Heuristics}
+\begin{itemize}
+    \item \textbf{The Free Incumbent Heuristic}: In 69.8\% of cases, value propositions centered on immutability were commoditized by Web2 cryptographic transparency logs (Sigstore, Rekor, GitHub Actions) at zero marginal cost.
+    \item \textbf{The Legal Identity \& Tax Friction Vector}: EU formal invoicing (Directive 2006/112/EC) and AML mandates (4AMLD, DAC8) require strict KYC and corporate VAT identification, forcing pseudonymous L2 wallets to construct middleware that reproduces the full cost of a standard Web2 SaaS.
+    \item \textbf{The Physical Sensor Oracle Fallacy}: On-chain immutability guarantees data persistence, but cannot verify inaccurate, uncalibrated, or spoofed hardware sensors at the physical point of collection.
+\end{itemize}
+
+\section{Future Research Agenda: Conjectural Frontiers}
+\begin{table}[h]
+\centering
+\caption{Priority Frontier Research Directions and Falsifiability Criteria.}
+\begin{tabularx}{\textwidth}{lX}
+\toprule
+\textbf{Frontier Direction} & \textbf{Non-Substitutable Utility \& Falsifiability Criterion} \\
+\midrule
+1. Autonomous Agent Coordination (A2A) & Micro-settlement for AI models lacking human legal identity (ERC-8004 + x402). Falsified if centralized virtual agent cards (Visa/Stripe) dominate. \\
+2. Zero-Knowledge Verifiable Compliance & Mathematical proof of regulatory (CRA) or SLA compliance without exposing proprietary source code. Falsified if confidential enclaves (TDX/SEV) prove 100x cheaper. \\
+3. Censorship-Resistant Infrastructure & Unstoppable settlement across network environments under active jurisdictional de-platforming. Falsified if multi-hop Tor latency makes coordination unviable. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Conclusion}
+Attempting to migrate conventional B2B enterprise workflows onto smart contracts represents a fundamental architectural category error. The true value of decentralized state machines lies not in substituting human enterprise Web2 software, but in serving as the native financial substrate for autonomous machine agents operating beyond traditional banking rails.
+
+\end{document}
