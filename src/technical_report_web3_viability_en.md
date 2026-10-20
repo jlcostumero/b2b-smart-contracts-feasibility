@@ -50,7 +50,7 @@ These empirical precedents align directly with the foundational decision framewo
 This investigation addresses the following core research question:
 > *Are there objective economic, technical, or legal conditions under which an L2 smart contract-based B2B service presents a defensible competitive advantage over centralized Web2 architectures within the contemporary European enterprise environment?*
 
-To resolve this question with methodological rigor and counteract the pervasive *LLM optimism and LLM optimism and LLM optimism and LLM optimism and sycophancy bias* (the structural tendency of initial feasibility studies to over-estimate viability), we designed a multi-dimensional adversarial evaluation protocol and applied it across 53 distinct business hypotheses spanning the functional spectrum of modern enterprise operations.
+To resolve this question with methodological rigor and counteract the pervasive *LLM optimism and sycophancy bias* (the structural tendency of initial feasibility studies to over-estimate viability), we designed a multi-dimensional adversarial evaluation protocol and applied it across 53 distinct business hypotheses spanning the functional spectrum of modern enterprise operations.
 
 ---
 
