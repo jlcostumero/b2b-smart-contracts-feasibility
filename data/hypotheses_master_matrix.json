@@ -10,8 +10,7 @@
     "score_tech": 8.0,
     "score_econ": 7.5,
     "score_robustness": 3.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Stripe Payments / Cloudflare API Shield",
     "critical_rejection_factor": "Stripe and Cloudflare resolve API micropayments with standard corporate cards; M2M autonomous agent volume is currently insufficient to sustain infrastructure."
   },
@@ -26,8 +25,7 @@
     "score_tech": 8.0,
     "score_econ": 8.0,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "BaseStamp / eIDAS Qualified TSAs (RFC 3161)",
     "critical_rejection_factor": "FreeTSA and BaseStamp offer timestamping for free or pennies; public chains lack qualified legal evidentiary presumption under EU eIDAS 2.0."
   },
@@ -42,8 +40,7 @@
     "score_tech": 7.0,
     "score_econ": 7.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Certification Authority APIs (AENOR, DNV Portals)",
     "critical_rejection_factor": "Certification bodies already operate free public registries and direct REST APIs without requiring blockchain intermediaries."
   },
@@ -58,8 +55,7 @@
     "score_tech": 8.0,
     "score_econ": 7.0,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Commercial Bank Escrow / Stripe Custom Connect",
     "critical_rejection_factor": "Regulated escrow and commercial banking provide standardized contract dispute coverage and direct judicial enforceability."
   },
@@ -74,8 +70,7 @@
     "score_tech": 6.5,
     "score_econ": 6.0,
     "score_robustness": 3.0,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H3 (Physical Oracle Fallacy)",
+    "primary_failure_heuristic": "H3 (Physical Sensor Oracle)",
     "dominant_incumbent": "SCADA Siemens/Rockwell + Silicon TPM/HSM",
     "critical_rejection_factor": "Rockwell and Siemens capture telemetry with TPM/HSM silicon-level signatures; blockchain replication cannot prevent physical sensor tampering at source."
   },
@@ -90,8 +85,7 @@
     "score_tech": 7.0,
     "score_econ": 5.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H2 (Legal/AML Friction)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "1958 New York Arbitration Convention Chambers",
     "critical_rejection_factor": "Commercial arbitration relies on the 1958 New York Convention; smart contracts lack direct judicial enforceability without human procedural safeguards."
   },
@@ -106,8 +100,7 @@
     "score_tech": 7.0,
     "score_econ": 6.5,
     "score_robustness": 3.0,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H3 (Physical Oracle Fallacy)",
+    "primary_failure_heuristic": "H3 (Physical Sensor Oracle)",
     "dominant_incumbent": "SEPA B2B Direct Debit / SAP Service Cloud",
     "critical_rejection_factor": "SEPA B2B Direct Debit handles recurring maintenance payments without requiring industrial machine shops to manage crypto balances."
   },
@@ -122,8 +115,7 @@
     "score_tech": 6.0,
     "score_econ": 6.0,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H2 (Legal/AML Friction)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "Securitization Vehicles / Traditional SPVs",
     "critical_rejection_factor": "MiFID II and CNMV regulations classify fractional revenue tokens as financial securities; compliance overhead destroys yield."
   },
@@ -138,8 +130,7 @@
     "score_tech": 8.0,
     "score_econ": 6.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "GS1 EPCIS Standard / SAP Logistics Business Network",
     "critical_rejection_factor": "GS1 EPCIS global supply chain standards operate over standard enterprise messaging protocols without token friction."
   },
@@ -154,8 +145,7 @@
     "score_tech": 7.0,
     "score_econ": 6.5,
     "score_robustness": 3.0,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H2 (Legal/AML Friction)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "Contractual Legal Recourse / Commercial Courts",
     "critical_rejection_factor": "Contractual penalty clauses are subject to equitable judicial moderation under statutory civil law (Spanish Civil Code Art. 1154); deterministic, unstoppable on-chain penalty executions cannot override judicial discretion."
   },
@@ -170,8 +160,7 @@
     "score_tech": 7.0,
     "score_econ": 8.0,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H2 (Legal/AML Friction)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "Regulated Reinsurance Oracles / Munich Re",
     "critical_rejection_factor": "Regulated insurers require audited reserve pools under Solvency II; weather and disaster oracles remain centralized points of failure."
   },
@@ -186,8 +175,7 @@
     "score_tech": 6.0,
     "score_econ": 5.5,
     "score_robustness": 2.5,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "Accredited ESG Audit Reports (Big Four, CSRD Portals)",
     "critical_rejection_factor": "The EU CSRD Directive (2022/2464) mandates accredited human auditor assurance on annual reports; hash anchoring does not verify ecological accuracy."
   },
@@ -202,8 +190,7 @@
     "score_tech": 7.0,
     "score_econ": 7.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Datadog / Dynatrace Signed Audit Exports",
     "critical_rejection_factor": "Observability platforms (Datadog, Dynatrace) provide signed uptime reports accepted universally in IT outsourcing agreements."
   },
@@ -218,8 +205,7 @@
     "score_tech": 7.0,
     "score_econ": 6.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Okta / Auth0 / Enterprise SAML Directories",
     "critical_rejection_factor": "Auth0 and Okta handle multi-tenant licensing and RBAC natively with Active Directory/Azure AD integration without on-chain latency."
   },
@@ -234,8 +220,7 @@
     "score_tech": 7.0,
     "score_econ": 4.0,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H2 (Legal/AML Friction)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "Notarized Shareholder Agreements / Corporate Bylaws",
     "critical_rejection_factor": "Industrial consortia operate under formal shareholder pacts and notarized bylaws; token staking carries no corporate legal validity."
   },
@@ -250,8 +235,7 @@
     "score_tech": 5.0,
     "score_econ": 6.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Microsoft Entra ID / Okta Workforce Identity",
     "critical_rejection_factor": "OIDC and SAML 2.0 dominate enterprise identity federation; on-chain credentials lack integration with enterprise perimeter firewalls."
   },
@@ -266,8 +250,7 @@
     "score_tech": 8.0,
     "score_econ": 8.5,
     "score_robustness": 2.5,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H2 (Legal/AML Friction)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "Stripe Connect Custom / ERP Split Billing",
     "critical_rejection_factor": "B2B revenue splitting requires statutory tax withholdings and bilateral invoicing, which flat cryptographic transfers cannot accommodate."
   },
@@ -282,8 +265,7 @@
     "score_tech": 7.0,
     "score_econ": 8.0,
     "score_robustness": 3.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "SEPA Instant / Wise Business / Revolut Business",
     "critical_rejection_factor": "SEPA Instant and corporate multi-currency accounts offer 0.1–0.4% spreads with zero tax volatility, outperforming stablecoin on/off-ramp spreads (0.3–1.5%)."
   },
@@ -298,8 +280,7 @@
     "score_tech": 7.0,
     "score_econ": 7.5,
     "score_robustness": 3.0,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H3 (Physical Oracle Fallacy)",
+    "primary_failure_heuristic": "H3 (Physical Sensor Oracle)",
     "dominant_incumbent": "Electronic CMR Waybill APIs / Transporeon",
     "critical_rejection_factor": "Freight delivery confirmation relies on signed e-CMR waybills; electronic logistics APIs already automate settlement upon digital signature."
   },
@@ -314,8 +295,7 @@
     "score_tech": 7.0,
     "score_econ": 7.0,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H2 (Legal/AML Friction)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "REE / OMIE National Electricity Clearing House",
     "critical_rejection_factor": "National grid operators centralize electricity settlement; private smart contracts cannot override official grid balancing data."
   },
@@ -330,8 +310,7 @@
     "score_tech": 6.0,
     "score_econ": 5.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "SWIFT MT700 Messaging / Standard Trade Bank Facilities",
     "critical_rejection_factor": "Bank letters of credit operate under ICC UCP 600 rules; commercial banks reject smart contract execution risks without standardized legal recourse."
   },
@@ -346,8 +325,7 @@
     "score_tech": 6.0,
     "score_econ": 4.0,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H2 (Legal/AML Friction)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "Notarized Bank Escrow / Escrow.com Corporate",
     "critical_rejection_factor": "M&A EBITDA earnout milestones are contentious accounting calculations; private equity funds will not lock capital into blind on-chain escrows."
   },
@@ -362,8 +340,7 @@
     "score_tech": 5.0,
     "score_econ": 4.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "Certified Royalty Audits / SAP Billing and Revenue",
     "critical_rejection_factor": "IP royalties depend on certified external commercial sales audits; accounting reconciliations prevent instant programmatic settlement."
   },
@@ -378,8 +355,7 @@
     "score_tech": 6.0,
     "score_econ": 6.5,
     "score_robustness": 3.0,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H2 (Legal/AML Friction)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "Deel / Remote.com / Wise Multi-Currency Payroll",
     "critical_rejection_factor": "Labor laws require wage payments in legal tender; paying payroll in crypto assets transfers currency risk and triggers labor inspection sanctions."
   },
@@ -394,8 +370,7 @@
     "score_tech": 6.0,
     "score_econ": 5.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H2 (Legal/AML Friction)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "EU ETS Sovereign Registry / Verra Registry",
     "critical_rejection_factor": "Official carbon credit registries (EU ETS) are sovereign government monopolies; parallel tokenized credits lack legal accounting compliance."
   },
@@ -410,8 +385,7 @@
     "score_tech": 7.0,
     "score_econ": 6.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Co-located HFT Bots / Flashbots Builder APIs",
     "critical_rejection_factor": "L2 DEX liquidity arbitrage is heavily saturated by professional MEV searchers and co-located institutional market makers."
   },
@@ -426,8 +400,7 @@
     "score_tech": 7.0,
     "score_econ": 6.5,
     "score_robustness": 3.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Temporal.io / Stripe Agentic Payment Protocols",
     "critical_rejection_factor": "ERC-4337 account abstraction introduces operational complexity and bundler fees compared to traditional API keys and OAuth servers."
   },
@@ -442,8 +415,7 @@
     "score_tech": 7.0,
     "score_econ": 6.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Temporal.io / Celery + Corporate Credit Lines",
     "critical_rejection_factor": "The financial opportunity cost of immobilizing collateral on-chain exceeds the cost of standard corporate SLAs with deferred penalties."
   },
@@ -458,8 +430,7 @@
     "score_tech": 7.0,
     "score_econ": 4.0,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "RunPod / Lambda Labs / Vast.ai Credit Card Billing",
     "critical_rejection_factor": "Cloud GPU providers offer on-demand instances with contractual uptime SLAs and 24/7 enterprise support without crypto prepayments."
   },
@@ -474,8 +445,7 @@
     "score_tech": 7.0,
     "score_econ": 6.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "DocuSign IAM / Stripe Custom Connect Escrow",
     "critical_rejection_factor": "Autonomous AI agents lack civil legal liability; commercial disputes caused by model hallucinations fall outside legal recourse."
   },
@@ -490,8 +460,7 @@
     "score_tech": 7.0,
     "score_econ": 5.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Verified Domain DNS TXT Records / Hugging Face Verified",
     "critical_rejection_factor": "On-chain decentralized reputation registries are vulnerable to Sybil attacks; enterprise marketplaces prefer verified domain DNS ownership."
   },
@@ -506,8 +475,7 @@
     "score_tech": 6.0,
     "score_econ": 5.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "OpenAI / Anthropic / Together AI API Gateways",
     "critical_rejection_factor": "Foundation model providers provide direct APIs with aggregated monthly invoicing; per-token L2 micro-settlement lacks business demand."
   },
@@ -522,8 +490,7 @@
     "score_tech": 6.0,
     "score_econ": 5.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Cleanlab / DeepEval / Human-in-the-Loop Eval",
     "critical_rejection_factor": "Generative AI inference quality is non-binary and subjective; smart contracts cannot objectively determine hallucinations on-chain."
   },
@@ -538,8 +505,7 @@
     "score_tech": 7.0,
     "score_econ": 7.0,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Hugging Face Datasets / Scale AI Data Engine",
     "critical_rejection_factor": "Commercial data aggregators enforce closed licensing; web scrapers ignore on-chain micropayments and extract public datasets directly."
   },
@@ -554,8 +520,7 @@
     "score_tech": 7.0,
     "score_econ": 5.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Unified Datacenter Clusters (AWS, GCP, Lambda)",
     "critical_rejection_factor": "Geographically dispersed volunteer GPU pools cannot compete in latency or InfiniBand bandwidth with unified datacenter clusters."
   },
@@ -570,8 +535,7 @@
     "score_tech": 7.5,
     "score_econ": 7.5,
     "score_robustness": 3.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Stripe Payments / Cloudflare Workers Payments",
     "critical_rejection_factor": "Despite robust protocol design, the autonomous agent economy lacks sufficient funded on-chain agent volume to sustain standalone profitability."
   },
@@ -586,8 +550,7 @@
     "score_tech": 8.0,
     "score_econ": 5.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Hugging Face Hub / SHA-256 + GPG Signatures",
     "critical_rejection_factor": "Hugging Face and Model Hubs verify SHA-256 model weights and GPG commit signatures free of charge for the entire ML ecosystem."
   },
@@ -602,8 +565,7 @@
     "score_tech": 7.0,
     "score_econ": 6.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Self-hosted Local LLMs (vLLM / Ollama via WireGuard)",
     "critical_rejection_factor": "Tor onion routing introduces severe latency (> 2,500ms) that degrades real-time streaming inference for interactive language models."
   },
@@ -618,8 +580,7 @@
     "score_tech": 7.5,
     "score_econ": 6.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H2 (Legal/AML Friction)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "CME Financial Futures / Cloud Reserved Instances",
     "critical_rejection_factor": "GPU computing hash-rate derivatives qualify as complex financial derivatives under MiFID II, requiring multimillion-euro exchange licensing."
   },
@@ -634,8 +595,7 @@
     "score_tech": 8.5,
     "score_econ": 7.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "GitHub Actions / Sigstore (Rekor) / Chainguard",
     "critical_rejection_factor": "GitHub Actions provides free SLSA Level 2 attestations backed by Sigstore/Rekor; EU CRA and DORA accept PKI signatures without blockchain."
   },
@@ -650,8 +610,7 @@
     "score_tech": 7.5,
     "score_econ": 6.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "Open Data CKAN Portals / Gov REST APIs",
     "critical_rejection_factor": "The EU Data Act (Art. 5) prohibits paywalling essential public open data; government CKAN portals distribute it freely via REST APIs."
   },
@@ -666,8 +625,7 @@
     "score_tech": 5.5,
     "score_econ": 6.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "Official State Procurement Portals (PLACSP / FNMT)",
     "critical_rejection_factor": "Public procurement platforms operate strictly under government FNMT qualified certificates and ministerial registries."
   },
@@ -682,8 +640,7 @@
     "score_tech": 8.5,
     "score_econ": 7.0,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Dependency-Track / CycloneDX / Chainguard",
     "critical_rejection_factor": "Established open-source tools (Dependency-Track, CycloneDX) and enterprise vendors generate SBOMs without blockchain gas."
   },
@@ -698,8 +655,7 @@
     "score_tech": 7.0,
     "score_econ": 6.0,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "Virtual Corporate Cards (Stripe Issuing, Brex)",
     "critical_rejection_factor": "P2P payment routing over encrypted networks suffers from liquidity fragmentation and high routing failure rates."
   },
@@ -714,8 +670,7 @@
     "score_tech": 6.5,
     "score_econ": 7.0,
     "score_robustness": 2.5,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "eIDAS Qualified TSAs (RFC 3161) / FreeTSA",
     "critical_rejection_factor": "Judicial courts require qualified eIDAS timestamps; anonymous zero-knowledge timestamps lack qualified evidentiary standing in litigation."
   },
@@ -730,8 +685,7 @@
     "score_tech": 8.0,
     "score_econ": 7.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H3 (Physical Oracle Fallacy)",
+    "primary_failure_heuristic": "H3 (Physical Sensor Oracle)",
     "dominant_incumbent": "Sensitech / Testo Validated Calibrated Data Loggers",
     "critical_rejection_factor": "EU Good Distribution Practices (GDP) mandate physical sensor calibration certification by human quality auditors, not on-chain hashes."
   },
@@ -746,8 +700,7 @@
     "score_tech": 7.5,
     "score_econ": 6.0,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Weights & Biases Artifacts / MLflow Tracking",
     "critical_rejection_factor": "Auditing terabytes of training checkpoints creates verification compute costs that exceed standard regulatory compliance budgets under the EU AI Act."
   },
@@ -762,8 +715,7 @@
     "score_tech": 6.0,
     "score_econ": 6.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Akash Network / Vast.ai with Fiat Gateway",
     "critical_rejection_factor": "Operational complexity and lack of steady compute demand make decentralized P2P ZK scheduling unviable against centralized clouds."
   },
@@ -778,8 +730,7 @@
     "score_tech": 7.5,
     "score_econ": 7.0,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "No",
-    "primary_failure_heuristic": "H3 (Physical Oracle Fallacy)",
+    "primary_failure_heuristic": "H3 (Physical Sensor Oracle)",
     "dominant_incumbent": "Big Four Certified ESG Audit Workflows",
     "critical_rejection_factor": "EU CSRD sustainability reporting accepts third-party financial auditor sign-offs on consolidated annual reports without sensor hashing."
   },
@@ -794,8 +745,7 @@
     "score_tech": 6.5,
     "score_econ": 6.0,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "Data Provenance Initiative / Hugging Face Datasets",
     "critical_rejection_factor": "Copyright and intellectual property claims by publishers are litigated over full training corpuses in civil courts, not per data point."
   },
@@ -810,8 +760,7 @@
     "score_tech": 6.5,
     "score_econ": 6.0,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "DESCA Horizon Europe Consortium Agreements",
     "critical_rejection_factor": "Horizon Europe research consortia operate under standardized DESCA consortium agreements approved by the European Commission."
   },
@@ -826,8 +775,7 @@
     "score_tech": 8.5,
     "score_econ": 7.5,
     "score_robustness": 3.5,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H1 (Free/Bundled Incumbent)",
     "dominant_incumbent": "Stripe Agentic Payments / Centralized Agent AP2",
     "critical_rejection_factor": "Identified as high-potential future frontier: viable exclusively for autonomous AI agents without human legal identity in M2M environments."
   },
@@ -842,8 +790,7 @@
     "score_tech": 6.0,
     "score_econ": 5.5,
     "score_robustness": 2.0,
-    "heuristic_1_free_incumbent": "Yes",
-    "primary_failure_heuristic": "H1 (Free Incumbent)",
+    "primary_failure_heuristic": "H2 (Legal/AML Vector)",
     "dominant_incumbent": "Direct Publisher Commercial Licensing Portals",
     "critical_rejection_factor": "EU Copyright Directive (2019/790, Art. 4) provides a statutory text-and-data mining exception that bypasses commercial micro-licensing."
   }
