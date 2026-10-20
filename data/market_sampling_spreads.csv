@@ -1,0 +1,10 @@
+provider,channel,pair,typical_spread_pct,fee_structure,settlement_rail,sampling_period,notes
+Wise Business,Corporate Bank API,EUR/USD,0.35%,Mid-market + 0.33%-0.45% variable,SEPA Instant / ACH,Q3-Q4 2026,Fully deductible standard corporate invoice; zero balance-sheet crypto volatility.
+Revolut Business,Corporate Bank API,EUR/USD,0.20%,Interbank rate + 0.15%-0.30% during FX hours,SEPA Instant / FedNow,Q3-Q4 2026,Direct accounting integration with Xero/QuickBooks; statutory corporate tax invoices.
+SEPA Instant Commercial,Tier-1 Bank (Santander/BNP),EUR/EUR,0.01%,Flat EUR 0.20-0.50 per transfer,SEPA Instant (EBA CLEARING),Q3-Q4 2026,Sub-second interbank settlement within eurozone; zero FX risk.
+Kraken Pro,Crypto On/Off-Ramp,EUR/USDC,0.40%,0.16%-0.26% trading fee + SEPA deposit/withdrawal fee,Base / Arbitrum L2,Q3-Q4 2026,Requires corporate KYC/KYB with VASP; bank fee on fiat egress.
+Coinbase Prime / Exchange,Crypto On/Off-Ramp,EUR/USDC,0.60%,0.20%-0.60% tiered maker/taker + wire fee,Base L2,Q3-Q4 2026,Enterprise institutional custody tier; withdrawal fees depend on network congestion.
+Bitvavo,Crypto On/Off-Ramp,EUR/USDC,0.35%,0.15%-0.25% fee + SEPA instant rails,Ethereum / L2,Q3-Q4 2026,Regulated under Dutch Central Bank (DNB); retail and corporate accounts.
+Circle Mint,Primary Issuer On/Off-Ramp,EUR/USDC,0.15%,Free minting/redemption for qualified institutions; wire fees apply,Direct Treasury Mint,Q3-Q4 2026,Requires high-volume corporate institutional qualification (>  min).
+Uniswap v3 / Aerodrome,DEX Liquidity Pool,EURC/USDC,0.05%,0.01%-0.05% LP swap fee + L2 gas (.002),Base L2 (chainId 8453),Q3-Q4 2026,On-chain swap fee only; excludes subsequent fiat liquidation costs.
+Composite Stablecoin Egress,Fiat On/Off-Ramp Aggregator,EUR/USDC,0.95%,Weighted average: 0.30% exchange spread + 0.50% banking fee + L2 gas,SEPA + Base,Q3-Q4 2026,Total corporate friction for non-crypto enterprise converting fiat to USDC and vice versa.

@@ -157,7 +157,7 @@
     "heuristic_1_free_incumbent": "No",
     "primary_failure_heuristic": "H2 (Legal/AML Friction)",
     "dominant_incumbent": "Contractual Legal Recourse / Commercial Courts",
-    "critical_rejection_factor": "Contractual penalty clauses are subject to judicial moderation (Civil Code Art. 1154); automated, unstoppable penalty execution is legally void."
+    "critical_rejection_factor": "Contractual penalty clauses are subject to equitable judicial moderation under statutory civil law (Spanish Civil Code Art. 1154); deterministic, unstoppable on-chain penalty executions cannot override judicial discretion."
   },
   {
     "id": "T-111",
@@ -285,7 +285,7 @@
     "heuristic_1_free_incumbent": "Yes",
     "primary_failure_heuristic": "H1 (Free Incumbent)",
     "dominant_incumbent": "SEPA Instant / Wise Business / Revolut Business",
-    "critical_rejection_factor": "SEPA Instant and corporate multi-currency accounts offer 0.1–0.4% spreads with zero tax volatility, outperforming stablecoin on/off-ramp spreads (1.0–2.5%)."
+    "critical_rejection_factor": "SEPA Instant and corporate multi-currency accounts offer 0.1–0.4% spreads with zero tax volatility, outperforming stablecoin on/off-ramp spreads (0.3–1.5%)."
   },
   {
     "id": "T-119",
@@ -492,7 +492,7 @@
     "score_robustness": 2.0,
     "heuristic_1_free_incumbent": "Yes",
     "primary_failure_heuristic": "H1 (Free Incumbent)",
-    "dominant_incumbent": "Verified Domain DNS (RFC 8482) / Hugging Face Verified",
+    "dominant_incumbent": "Verified Domain DNS TXT Records / Hugging Face Verified",
     "critical_rejection_factor": "On-chain decentralized reputation registries are vulnerable to Sybil attacks; enterprise marketplaces prefer verified domain DNS ownership."
   },
   {
