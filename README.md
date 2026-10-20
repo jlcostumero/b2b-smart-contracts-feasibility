@@ -2,11 +2,11 @@
 ### Lessons from an Adversarial Evaluation of 53 Market Hypotheses and a Future Research Agenda
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Technical Report](https://img.shields.io/badge/PDF-Technical_Report_v1.1-blue.svg)](pdf/Technical_Report_Smart_Contracts_B2B_Viability.pdf)
+[![Technical Report](https://img.shields.io/badge/PDF-Technical_Report_v1.1.1-blue.svg)](pdf/Technical_Report_Smart_Contracts_B2B_Viability.pdf)
 [![Hypotheses Dataset](https://img.shields.io/badge/Dataset-53_Hypotheses_(CSV%2FJSON)-green.svg)](data/)
 
 **Author:** **Jose Luis Costumero Burgos** (*Independent Researcher*)  
-**Version:** 1.1.0 · October 2026  
+**Version:** 1.1.1 (Revised after external feedback) · October 2026  
 **Permanent Repository:** [https://github.com/jlcostumero/b2b-smart-contracts-feasibility](https://github.com/jlcostumero/b2b-smart-contracts-feasibility)
 
 ---
@@ -32,7 +32,7 @@ This repository publishes the open evaluation corpus and findings of a structure
 
 ```text
 ├── pdf/
-│   └── Technical_Report_Smart_Contracts_B2B_Viability.pdf   # 18-page publication-ready PDF (STIX Two typography)
+│   └── Technical_Report_Smart_Contracts_B2B_Viability.pdf   # 17-page publication-ready PDF (STIX Two typography, landscape appendix) (STIX Two typography)
 ├── data/
 │   ├── hypotheses_master_matrix.csv                         # Flat dataset of all 53 hypotheses with L/T/E/R scores
 │   └── hypotheses_master_matrix.json                        # Machine-readable JSON evaluation corpus

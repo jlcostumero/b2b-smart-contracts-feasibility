@@ -4,7 +4,7 @@ authors:
   - family-names: "Costumero Burgos"
     given-names: "Jose Luis"
 title: "A Systematic Feasibility Analysis of Smart Contract-Based B2B Services: Lessons from an Adversarial Evaluation of 53 Market Hypotheses and a Future Research Agenda"
-version: 1.1.0
+version: 1.1.1
 date-released: 2026-10-20
 url: "https://github.com/jlcostumero/b2b-smart-contracts-feasibility"
 type: report

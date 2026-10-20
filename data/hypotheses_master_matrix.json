@@ -3,689 +3,2968 @@
     "id": "T-101",
     "denomination": "AI Intelligence API Gateway with Pay-per-Call (x402)",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
     "scores": {
       "L": 6.0,
       "T": 8.0,
       "E": 7.5,
       "R": 3.0
     },
-    "dominant_incumbent": "Stripe Payments / Cloudflare API Shield",
-    "critical_rejection_factor": "Stripe and Cloudflare resolve API micropayments with standard corporate cards; M2M autonomous agent volume is currently insufficient to sustain infrastructure."
+    "dominant_incumbent": "`L:6.0 T:8.0 E:7.5 R:3.0`",
+    "critical_rejection_factor": "`L:6.0 T:8.0 E:7.5 R:3.0`"
+  },
+  {
+    "id": "T-101",
+    "denomination": "AI Intelligence API Gateway with Pay-per-Call (x402)",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.0,
+      "T": 8.0,
+      "E": 7.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:6.0 T:8.0 E:7.5 R:3.0`",
+    "critical_rejection_factor": "Stripe Payments / Cloudflare API Shield"
+  },
+  {
+    "id": "T-101",
+    "denomination": "AI Intelligence API Gateway with Pay-per-Call (x402)",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.0,
+      "T": 8.0,
+      "E": 7.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:6.0 T:8.0 E:7.5 R:3.0`",
+    "critical_rejection_factor": "`L:6.0 T:8.0 E:7.5 R:3.0`"
+  },
+  {
+    "id": "T-101",
+    "denomination": "AI Intelligence API Gateway with Pay-per-Call (x402)",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.0,
+      "T": 8.0,
+      "E": 7.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:6.0 T:8.0 E:7.5 R:3.0`",
+    "critical_rejection_factor": "`L:6.0 T:8.0 E:7.5 R:3.0`"
   },
   {
     "id": "T-102",
     "denomination": "Decentralized B2B Timestamping and Notarization Protocol",
     "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 5 (Incumbent)",
     "scores": {
-      "L": 5.0,
+      "L": 6.0,
       "T": 8.0,
       "E": 8.0,
       "R": 2.0
     },
-    "dominant_incumbent": "BaseStamp / eIDAS Qualified TSAs (RFC 3161)",
-    "critical_rejection_factor": "FreeTSA and BaseStamp offer timestamping for free or pennies; public chains lack qualified legal evidentiary presumption under EU eIDAS 2.0."
+    "dominant_incumbent": "`L:6.0 T:8.0 E:8.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:8.0 E:8.0 R:2.0`"
+  },
+  {
+    "id": "T-102",
+    "denomination": "Decentralized B2B Timestamping and Notarization Protocol",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 8.0,
+      "E": 8.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:8.0 E:8.0 R:2.0`",
+    "critical_rejection_factor": "BaseStamp / eIDAS Qualified TSAs (RFC 3161)"
+  },
+  {
+    "id": "T-102",
+    "denomination": "Decentralized B2B Timestamping and Notarization Protocol",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 8.0,
+      "E": 8.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:8.0 E:8.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:8.0 E:8.0 R:2.0`"
+  },
+  {
+    "id": "T-102",
+    "denomination": "Decentralized B2B Timestamping and Notarization Protocol",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 8.0,
+      "E": 8.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:8.0 E:8.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:8.0 E:8.0 R:2.0`"
   },
   {
     "id": "T-103",
     "denomination": "Automated Regulatory Compliance Certificate Verification",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 4 (Procurement)",
     "scores": {
-      "L": 5.5,
+      "L": 6.0,
       "T": 7.0,
       "E": 7.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Certification Authority APIs (AENOR, DNV Portals)",
-    "critical_rejection_factor": "Certification bodies already operate free public registries and direct REST APIs without requiring blockchain intermediaries."
+    "dominant_incumbent": "`L:6.0 T:7.0 E:7.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:7.5 R:2.0`"
+  },
+  {
+    "id": "T-103",
+    "denomination": "Automated Regulatory Compliance Certificate Verification",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 7.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:7.5 R:2.0`",
+    "critical_rejection_factor": "Certification Authority APIs (AENOR, DNV Portals)"
+  },
+  {
+    "id": "T-103",
+    "denomination": "Automated Regulatory Compliance Certificate Verification",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 7.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:7.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:7.5 R:2.0`"
+  },
+  {
+    "id": "T-103",
+    "denomination": "Automated Regulatory Compliance Certificate Verification",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 7.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:7.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:7.5 R:2.0`"
   },
   {
     "id": "T-104",
     "denomination": "Programmatic B2B Contract Settlement with Verified Milestones",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
     "scores": {
       "L": 7.0,
       "T": 8.0,
       "E": 7.0,
       "R": 2.0
     },
-    "dominant_incumbent": "Commercial Bank Escrow / Stripe Custom Connect",
-    "critical_rejection_factor": "Regulated escrow and commercial banking provide standardized contract dispute coverage and direct judicial enforceability."
+    "dominant_incumbent": "`L:7.0 T:8.0 E:7.0 R:2.0`",
+    "critical_rejection_factor": "`L:7.0 T:8.0 E:7.0 R:2.0`"
+  },
+  {
+    "id": "T-104",
+    "denomination": "Programmatic B2B Contract Settlement with Verified Milestones",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 7.0,
+      "T": 8.0,
+      "E": 7.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:7.0 T:8.0 E:7.0 R:2.0`",
+    "critical_rejection_factor": "Commercial Bank Escrow / Stripe Custom Connect"
+  },
+  {
+    "id": "T-104",
+    "denomination": "Programmatic B2B Contract Settlement with Verified Milestones",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 7.0,
+      "T": 8.0,
+      "E": 7.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:7.0 T:8.0 E:7.0 R:2.0`",
+    "critical_rejection_factor": "`L:7.0 T:8.0 E:7.0 R:2.0`"
+  },
+  {
+    "id": "T-104",
+    "denomination": "Programmatic B2B Contract Settlement with Verified Milestones",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 7.0,
+      "T": 8.0,
+      "E": 7.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:7.0 T:8.0 E:7.0 R:2.0`",
+    "critical_rejection_factor": "`L:7.0 T:8.0 E:7.0 R:2.0`"
   },
   {
     "id": "T-105",
     "denomination": "Industrial Sensor Data Anchoring with Multi-Oracle Verification",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
     "scores": {
       "L": 6.0,
-      "T": 6.5,
+      "T": 5.5,
       "E": 6.0,
       "R": 3.0
     },
-    "dominant_incumbent": "SCADA Siemens/Rockwell + Silicon TPM/HSM",
-    "critical_rejection_factor": "Rockwell and Siemens capture telemetry with TPM/HSM silicon-level signatures; blockchain replication cannot prevent physical sensor tampering at source."
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:3.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:6.0 R:3.0`"
+  },
+  {
+    "id": "T-105",
+    "denomination": "Industrial Sensor Data Anchoring with Multi-Oracle Verification",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:3.0`",
+    "critical_rejection_factor": "SCADA Siemens/Rockwell + Silicon TPM/HSM"
+  },
+  {
+    "id": "T-105",
+    "denomination": "Industrial Sensor Data Anchoring with Multi-Oracle Verification",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:3.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:6.0 R:3.0`"
+  },
+  {
+    "id": "T-105",
+    "denomination": "Industrial Sensor Data Anchoring with Multi-Oracle Verification",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:3.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:6.0 R:3.0`"
   },
   {
     "id": "T-106",
     "denomination": "On-Chain Binding Arbitration Protocol for Commercial Disputes",
     "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
     "scores": {
       "L": 4.0,
       "T": 7.0,
       "E": 5.5,
       "R": 2.0
     },
-    "dominant_incumbent": "1958 New York Arbitration Convention Chambers",
-    "critical_rejection_factor": "Commercial arbitration relies on the 1958 New York Convention; smart contracts lack direct judicial enforceability without human procedural safeguards."
+    "dominant_incumbent": "`L:4.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:4.0 T:7.0 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-106",
+    "denomination": "On-Chain Binding Arbitration Protocol for Commercial Disputes",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.0,
+      "T": 7.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "1958 New York Arbitration Convention Chambers"
+  },
+  {
+    "id": "T-106",
+    "denomination": "On-Chain Binding Arbitration Protocol for Commercial Disputes",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.0,
+      "T": 7.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:4.0 T:7.0 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-106",
+    "denomination": "On-Chain Binding Arbitration Protocol for Commercial Disputes",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.0,
+      "T": 7.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:4.0 T:7.0 E:5.5 R:2.0`"
   },
   {
     "id": "T-107",
     "denomination": "Automated Industrial Maintenance Contracts with Settlement",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 3 (Economics)",
     "scores": {
       "L": 6.0,
       "T": 7.0,
-      "E": 6.5,
+      "E": 5.5,
       "R": 3.0
     },
-    "dominant_incumbent": "SEPA B2B Direct Debit / SAP Service Cloud",
-    "critical_rejection_factor": "SEPA B2B Direct Debit handles recurring maintenance payments without requiring industrial machine shops to manage crypto balances."
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:3.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:5.5 R:3.0`"
+  },
+  {
+    "id": "T-107",
+    "denomination": "Automated Industrial Maintenance Contracts with Settlement",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 5.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:3.0`",
+    "critical_rejection_factor": "SEPA B2B Direct Debit / SAP Service Cloud"
+  },
+  {
+    "id": "T-107",
+    "denomination": "Automated Industrial Maintenance Contracts with Settlement",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 5.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:3.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:5.5 R:3.0`"
+  },
+  {
+    "id": "T-107",
+    "denomination": "Automated Industrial Maintenance Contracts with Settlement",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 5.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:3.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:5.5 R:3.0`"
   },
   {
     "id": "T-108",
     "denomination": "Industrial Equipment Lease Cash Flow Tokenization (RWA)",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
     "scores": {
       "L": 4.5,
       "T": 6.0,
       "E": 6.0,
       "R": 2.0
     },
-    "dominant_incumbent": "Securitization Vehicles / Traditional SPVs",
-    "critical_rejection_factor": "MiFID II and CNMV regulations classify fractional revenue tokens as financial securities; compliance overhead destroys yield."
+    "dominant_incumbent": "`L:4.5 T:6.0 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:4.5 T:6.0 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-108",
+    "denomination": "Industrial Equipment Lease Cash Flow Tokenization (RWA)",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.5,
+      "T": 6.0,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.5 T:6.0 E:6.0 R:2.0`",
+    "critical_rejection_factor": "Securitization Vehicles / Traditional SPVs"
+  },
+  {
+    "id": "T-108",
+    "denomination": "Industrial Equipment Lease Cash Flow Tokenization (RWA)",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.5,
+      "T": 6.0,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.5 T:6.0 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:4.5 T:6.0 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-108",
+    "denomination": "Industrial Equipment Lease Cash Flow Tokenization (RWA)",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.5,
+      "T": 6.0,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.5 T:6.0 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:4.5 T:6.0 E:6.0 R:2.0`"
   },
   {
     "id": "T-109",
     "denomination": "Supply Chain Provenance with On-Chain Evidence Settlement",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 5 (Incumbent)",
     "scores": {
       "L": 6.0,
       "T": 8.0,
       "E": 6.5,
       "R": 2.0
     },
-    "dominant_incumbent": "GS1 EPCIS Standard / SAP Logistics Business Network",
-    "critical_rejection_factor": "GS1 EPCIS global supply chain standards operate over standard enterprise messaging protocols without token friction."
+    "dominant_incumbent": "`L:6.0 T:8.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:8.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-109",
+    "denomination": "Supply Chain Provenance with On-Chain Evidence Settlement",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 8.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:8.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "GS1 EPCIS Standard / SAP Logistics Business Network"
+  },
+  {
+    "id": "T-109",
+    "denomination": "Supply Chain Provenance with On-Chain Evidence Settlement",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 8.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:8.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:8.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-109",
+    "denomination": "Supply Chain Provenance with On-Chain Evidence Settlement",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 8.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:8.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:8.0 E:6.5 R:2.0`"
   },
   {
     "id": "T-110",
     "denomination": "Programmatic Contractual Penalty Enforcement Protocol",
     "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
     "scores": {
       "L": 3.5,
       "T": 7.0,
       "E": 6.5,
       "R": 3.0
     },
-    "dominant_incumbent": "Contractual Legal Recourse / Commercial Courts",
-    "critical_rejection_factor": "Contractual penalty clauses are subject to judicial moderation (Civil Code Art. 1154); automated, unstoppable penalty execution is legally void."
+    "dominant_incumbent": "`L:3.5 T:7.0 E:6.5 R:3.0`",
+    "critical_rejection_factor": "`L:3.5 T:7.0 E:6.5 R:3.0`"
+  },
+  {
+    "id": "T-110",
+    "denomination": "Programmatic Contractual Penalty Enforcement Protocol",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 3.5,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:3.5 T:7.0 E:6.5 R:3.0`",
+    "critical_rejection_factor": "Contractual Legal Recourse / Commercial Courts"
+  },
+  {
+    "id": "T-110",
+    "denomination": "Programmatic Contractual Penalty Enforcement Protocol",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 3.5,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:3.5 T:7.0 E:6.5 R:3.0`",
+    "critical_rejection_factor": "`L:3.5 T:7.0 E:6.5 R:3.0`"
+  },
+  {
+    "id": "T-110",
+    "denomination": "Programmatic Contractual Penalty Enforcement Protocol",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 3.5,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:3.5 T:7.0 E:6.5 R:3.0`",
+    "critical_rejection_factor": "`L:3.5 T:7.0 E:6.5 R:3.0`"
   },
   {
     "id": "T-111",
     "denomination": "Parametric Insurance Trigger Monitoring and Settlement",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 3 (Economics)",
     "scores": {
-      "L": 4.5,
+      "L": 6.0,
       "T": 7.0,
-      "E": 8.0,
+      "E": 5.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Regulated Reinsurance Oracles / Munich Re",
-    "critical_rejection_factor": "Regulated insurers require audited reserve pools under Solvency II; weather and disaster oracles remain centralized points of failure."
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-111",
+    "denomination": "Parametric Insurance Trigger Monitoring and Settlement",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "Regulated Reinsurance Oracles / Munich Re"
+  },
+  {
+    "id": "T-111",
+    "denomination": "Parametric Insurance Trigger Monitoring and Settlement",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-111",
+    "denomination": "Parametric Insurance Trigger Monitoring and Settlement",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:5.5 R:2.0`"
   },
   {
     "id": "T-112",
     "denomination": "Programmatic ESG Compliance Management Protocol",
     "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 2 (Technical)",
     "scores": {
-      "L": 5.0,
-      "T": 6.0,
-      "E": 5.5,
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
       "R": 2.5
     },
-    "dominant_incumbent": "Accredited ESG Audit Reports (Big Four, CSRD Portals)",
-    "critical_rejection_factor": "The EU CSRD Directive (2022/2464) mandates accredited human auditor assurance on annual reports; hash anchoring does not verify ecological accuracy."
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.5`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:6.0 R:2.5`"
+  },
+  {
+    "id": "T-112",
+    "denomination": "Programmatic ESG Compliance Management Protocol",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
+      "R": 2.5
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.5`",
+    "critical_rejection_factor": "Accredited ESG Audit Reports (Big Four, CSRD Portals)"
+  },
+  {
+    "id": "T-112",
+    "denomination": "Programmatic ESG Compliance Management Protocol",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
+      "R": 2.5
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.5`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:6.0 R:2.5`"
+  },
+  {
+    "id": "T-112",
+    "denomination": "Programmatic ESG Compliance Management Protocol",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
+      "R": 2.5
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.5`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:6.0 R:2.5`"
   },
   {
     "id": "T-113",
     "denomination": "Digital Service SLA Monitoring with Evidentiary Records",
     "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 5 (Incumbent)",
     "scores": {
       "L": 6.0,
       "T": 7.0,
       "E": 7.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Datadog / Dynatrace Signed Audit Exports",
-    "critical_rejection_factor": "Observability platforms (Datadog, Dynatrace) provide signed uptime reports accepted universally in IT outsourcing agreements."
+    "dominant_incumbent": "`L:6.0 T:7.0 E:7.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:7.5 R:2.0`"
+  },
+  {
+    "id": "T-113",
+    "denomination": "Digital Service SLA Monitoring with Evidentiary Records",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 7.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:7.5 R:2.0`",
+    "critical_rejection_factor": "Datadog / Dynatrace Signed Audit Exports"
+  },
+  {
+    "id": "T-113",
+    "denomination": "Digital Service SLA Monitoring with Evidentiary Records",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 7.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:7.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:7.5 R:2.0`"
+  },
+  {
+    "id": "T-113",
+    "denomination": "Digital Service SLA Monitoring with Evidentiary Records",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 7.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:7.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:7.5 R:2.0`"
   },
   {
     "id": "T-114",
     "denomination": "Multi-Tenant SaaS Permission and License Management Protocol",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 5 (Incumbent)",
     "scores": {
       "L": 6.5,
       "T": 7.0,
       "E": 6.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Okta / Auth0 / Enterprise SAML Directories",
-    "critical_rejection_factor": "Auth0 and Okta handle multi-tenant licensing and RBAC natively with Active Directory/Azure AD integration without on-chain latency."
+    "dominant_incumbent": "`L:6.5 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.5 T:7.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-114",
+    "denomination": "Multi-Tenant SaaS Permission and License Management Protocol",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.5,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.5 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "Okta / Auth0 / Enterprise SAML Directories"
+  },
+  {
+    "id": "T-114",
+    "denomination": "Multi-Tenant SaaS Permission and License Management Protocol",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.5,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.5 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.5 T:7.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-114",
+    "denomination": "Multi-Tenant SaaS Permission and License Management Protocol",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.5,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.5 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.5 T:7.0 E:6.5 R:2.0`"
   },
   {
     "id": "T-115",
     "denomination": "Consortium Industrial Governance Protocol with Staking",
     "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
     "scores": {
       "L": 4.0,
       "T": 7.0,
       "E": 4.0,
       "R": 2.0
     },
-    "dominant_incumbent": "Notarized Shareholder Agreements / Corporate Bylaws",
-    "critical_rejection_factor": "Industrial consortia operate under formal shareholder pacts and notarized bylaws; token staking carries no corporate legal validity."
+    "dominant_incumbent": "`L:4.0 T:7.0 E:4.0 R:2.0`",
+    "critical_rejection_factor": "`L:4.0 T:7.0 E:4.0 R:2.0`"
+  },
+  {
+    "id": "T-115",
+    "denomination": "Consortium Industrial Governance Protocol with Staking",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.0,
+      "T": 7.0,
+      "E": 4.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.0 T:7.0 E:4.0 R:2.0`",
+    "critical_rejection_factor": "Notarized Shareholder Agreements / Corporate Bylaws"
+  },
+  {
+    "id": "T-115",
+    "denomination": "Consortium Industrial Governance Protocol with Staking",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.0,
+      "T": 7.0,
+      "E": 4.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.0 T:7.0 E:4.0 R:2.0`",
+    "critical_rejection_factor": "`L:4.0 T:7.0 E:4.0 R:2.0`"
+  },
+  {
+    "id": "T-115",
+    "denomination": "Consortium Industrial Governance Protocol with Staking",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.0,
+      "T": 7.0,
+      "E": 4.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.0 T:7.0 E:4.0 R:2.0`",
+    "critical_rejection_factor": "`L:4.0 T:7.0 E:4.0 R:2.0`"
   },
   {
     "id": "T-116",
     "denomination": "Multi-Tenant IAM Protocol with On-Chain Credentials",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
     "scores": {
-      "L": 5.5,
+      "L": 6.0,
       "T": 5.0,
       "E": 6.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Microsoft Entra ID / Okta Workforce Identity",
-    "critical_rejection_factor": "OIDC and SAML 2.0 dominate enterprise identity federation; on-chain credentials lack integration with enterprise perimeter firewalls."
+    "dominant_incumbent": "`L:6.0 T:5.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-116",
+    "denomination": "Multi-Tenant IAM Protocol with On-Chain Credentials",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "Microsoft Entra ID / Okta Workforce Identity"
+  },
+  {
+    "id": "T-116",
+    "denomination": "Multi-Tenant IAM Protocol with On-Chain Credentials",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-116",
+    "denomination": "Multi-Tenant IAM Protocol with On-Chain Credentials",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.0 E:6.5 R:2.0`"
   },
   {
     "id": "T-117",
     "denomination": "Automated Revenue Split-as-a-Service Protocol",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
     "scores": {
       "L": 4.5,
       "T": 8.0,
       "E": 8.5,
       "R": 2.5
     },
-    "dominant_incumbent": "Stripe Connect Custom / ERP Split Billing",
-    "critical_rejection_factor": "B2B revenue splitting requires statutory tax withholdings and bilateral invoicing, which flat cryptographic transfers cannot accommodate."
+    "dominant_incumbent": "`L:4.5 T:8.0 E:8.5 R:2.5`",
+    "critical_rejection_factor": "`L:4.5 T:8.0 E:8.5 R:2.5`"
+  },
+  {
+    "id": "T-117",
+    "denomination": "Automated Revenue Split-as-a-Service Protocol",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.5,
+      "T": 8.0,
+      "E": 8.5,
+      "R": 2.5
+    },
+    "dominant_incumbent": "`L:4.5 T:8.0 E:8.5 R:2.5`",
+    "critical_rejection_factor": "Stripe Connect Custom / ERP Split Billing"
+  },
+  {
+    "id": "T-117",
+    "denomination": "Automated Revenue Split-as-a-Service Protocol",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.5,
+      "T": 8.0,
+      "E": 8.5,
+      "R": 2.5
+    },
+    "dominant_incumbent": "`L:4.5 T:8.0 E:8.5 R:2.5`",
+    "critical_rejection_factor": "`L:4.5 T:8.0 E:8.5 R:2.5`"
+  },
+  {
+    "id": "T-117",
+    "denomination": "Automated Revenue Split-as-a-Service Protocol",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.5,
+      "T": 8.0,
+      "E": 8.5,
+      "R": 2.5
+    },
+    "dominant_incumbent": "`L:4.5 T:8.0 E:8.5 R:2.5`",
+    "critical_rejection_factor": "`L:4.5 T:8.0 E:8.5 R:2.5`"
   },
   {
     "id": "T-118",
     "denomination": "FX Settlement-as-a-Service Protocol for Cross-Border B2B",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 1 (Regulatory)",
     "scores": {
       "L": 5.0,
       "T": 7.0,
       "E": 8.0,
       "R": 3.0
     },
-    "dominant_incumbent": "SEPA Instant / Wise Business / Revolut Business",
-    "critical_rejection_factor": "SEPA Instant and corporate multi-currency accounts offer 0.1–0.4% spreads with zero tax volatility, outperforming stablecoin on/off-ramp spreads (1.0–2.5%)."
+    "dominant_incumbent": "`L:5.0 T:7.0 E:8.0 R:3.0`",
+    "critical_rejection_factor": "`L:5.0 T:7.0 E:8.0 R:3.0`"
+  },
+  {
+    "id": "T-118",
+    "denomination": "FX Settlement-as-a-Service Protocol for Cross-Border B2B",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 5.0,
+      "T": 7.0,
+      "E": 8.0,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:5.0 T:7.0 E:8.0 R:3.0`",
+    "critical_rejection_factor": "SEPA Instant / Wise Business / Revolut Business"
+  },
+  {
+    "id": "T-118",
+    "denomination": "FX Settlement-as-a-Service Protocol for Cross-Border B2B",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 5.0,
+      "T": 7.0,
+      "E": 8.0,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:5.0 T:7.0 E:8.0 R:3.0`",
+    "critical_rejection_factor": "`L:5.0 T:7.0 E:8.0 R:3.0`"
+  },
+  {
+    "id": "T-118",
+    "denomination": "FX Settlement-as-a-Service Protocol for Cross-Border B2B",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 5.0,
+      "T": 7.0,
+      "E": 8.0,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:5.0 T:7.0 E:8.0 R:3.0`",
+    "critical_rejection_factor": "`L:5.0 T:7.0 E:8.0 R:3.0`"
   },
   {
     "id": "T-119",
     "denomination": "Delivery-Triggered Payment-as-a-Service Protocol",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 4 (Procurement)",
     "scores": {
       "L": 6.0,
       "T": 7.0,
       "E": 7.5,
       "R": 3.0
     },
-    "dominant_incumbent": "Electronic CMR Waybill APIs / Transporeon",
-    "critical_rejection_factor": "Freight delivery confirmation relies on signed e-CMR waybills; electronic logistics APIs already automate settlement upon digital signature."
+    "dominant_incumbent": "`L:6.0 T:7.0 E:7.5 R:3.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:7.5 R:3.0`"
+  },
+  {
+    "id": "T-119",
+    "denomination": "Delivery-Triggered Payment-as-a-Service Protocol",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 7.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:7.5 R:3.0`",
+    "critical_rejection_factor": "Electronic CMR Waybill APIs / Transporeon"
+  },
+  {
+    "id": "T-119",
+    "denomination": "Delivery-Triggered Payment-as-a-Service Protocol",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 7.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:7.5 R:3.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:7.5 R:3.0`"
+  },
+  {
+    "id": "T-119",
+    "denomination": "Delivery-Triggered Payment-as-a-Service Protocol",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 7.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:7.5 R:3.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:7.5 R:3.0`"
   },
   {
     "id": "T-120",
     "denomination": "Programmatic Settlement of Power Purchase Agreements (PPA)",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
     "scores": {
       "L": 4.0,
       "T": 7.0,
       "E": 7.0,
       "R": 2.0
     },
-    "dominant_incumbent": "REE / OMIE National Electricity Clearing House",
-    "critical_rejection_factor": "National grid operators centralize electricity settlement; private smart contracts cannot override official grid balancing data."
+    "dominant_incumbent": "`L:4.0 T:7.0 E:7.0 R:2.0`",
+    "critical_rejection_factor": "`L:4.0 T:7.0 E:7.0 R:2.0`"
+  },
+  {
+    "id": "T-120",
+    "denomination": "Programmatic Settlement of Power Purchase Agreements (PPA)",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.0,
+      "T": 7.0,
+      "E": 7.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.0 T:7.0 E:7.0 R:2.0`",
+    "critical_rejection_factor": "REE / OMIE National Electricity Clearing House"
+  },
+  {
+    "id": "T-120",
+    "denomination": "Programmatic Settlement of Power Purchase Agreements (PPA)",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.0,
+      "T": 7.0,
+      "E": 7.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.0 T:7.0 E:7.0 R:2.0`",
+    "critical_rejection_factor": "`L:4.0 T:7.0 E:7.0 R:2.0`"
+  },
+  {
+    "id": "T-120",
+    "denomination": "Programmatic Settlement of Power Purchase Agreements (PPA)",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.0,
+      "T": 7.0,
+      "E": 7.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.0 T:7.0 E:7.0 R:2.0`",
+    "critical_rejection_factor": "`L:4.0 T:7.0 E:7.0 R:2.0`"
   },
   {
     "id": "T-121",
     "denomination": "Cross-Border Trade Finance: Automated Letter of Credit",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
     "scores": {
-      "L": 4.5,
-      "T": 6.0,
-      "E": 5.5,
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
       "R": 2.0
     },
-    "dominant_incumbent": "SWIFT MT700 Messaging / Standard Trade Bank Facilities",
-    "critical_rejection_factor": "Bank letters of credit operate under ICC UCP 600 rules; commercial banks reject smart contract execution risks without standardized legal recourse."
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-121",
+    "denomination": "Cross-Border Trade Finance: Automated Letter of Credit",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "SWIFT MT700 Messaging / Standard Trade Bank Facilities"
+  },
+  {
+    "id": "T-121",
+    "denomination": "Cross-Border Trade Finance: Automated Letter of Credit",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-121",
+    "denomination": "Cross-Border Trade Finance: Automated Letter of Credit",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:6.0 R:2.0`"
   },
   {
     "id": "T-122",
     "denomination": "Cross-Border M&A: Programmatic Earnout Escrow Release",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
     "scores": {
-      "L": 4.0,
-      "T": 6.0,
-      "E": 4.0,
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
       "R": 2.0
     },
-    "dominant_incumbent": "Notarized Bank Escrow / Escrow.com Corporate",
-    "critical_rejection_factor": "M&A EBITDA earnout milestones are contentious accounting calculations; private equity funds will not lock capital into blind on-chain escrows."
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-122",
+    "denomination": "Cross-Border M&A: Programmatic Earnout Escrow Release",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "Notarized Bank Escrow / Escrow.com Corporate"
+  },
+  {
+    "id": "T-122",
+    "denomination": "Cross-Border M&A: Programmatic Earnout Escrow Release",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-122",
+    "denomination": "Cross-Border M&A: Programmatic Earnout Escrow Release",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:6.0 R:2.0`"
   },
   {
     "id": "T-123",
     "denomination": "Cross-Border IP Licensing: Royalty Distribution Protocol",
     "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
     "scores": {
       "L": 4.5,
-      "T": 5.0,
-      "E": 4.5,
+      "T": 6.0,
+      "E": 6.0,
       "R": 2.0
     },
-    "dominant_incumbent": "Certified Royalty Audits / SAP Billing and Revenue",
-    "critical_rejection_factor": "IP royalties depend on certified external commercial sales audits; accounting reconciliations prevent instant programmatic settlement."
+    "dominant_incumbent": "`L:4.5 T:6.0 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:4.5 T:6.0 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-123",
+    "denomination": "Cross-Border IP Licensing: Royalty Distribution Protocol",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.5,
+      "T": 6.0,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.5 T:6.0 E:6.0 R:2.0`",
+    "critical_rejection_factor": "Certified Royalty Audits / SAP Billing and Revenue"
+  },
+  {
+    "id": "T-123",
+    "denomination": "Cross-Border IP Licensing: Royalty Distribution Protocol",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.5,
+      "T": 6.0,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.5 T:6.0 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:4.5 T:6.0 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-123",
+    "denomination": "Cross-Border IP Licensing: Royalty Distribution Protocol",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.5,
+      "T": 6.0,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.5 T:6.0 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:4.5 T:6.0 E:6.0 R:2.0`"
   },
   {
     "id": "T-124",
     "denomination": "Cross-Border Payroll Settlement Protocol for Remote Teams",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
     "scores": {
       "L": 4.0,
       "T": 6.0,
       "E": 6.5,
       "R": 3.0
     },
-    "dominant_incumbent": "Deel / Remote.com / Wise Multi-Currency Payroll",
-    "critical_rejection_factor": "Labor laws require wage payments in legal tender; paying payroll in crypto assets transfers currency risk and triggers labor inspection sanctions."
+    "dominant_incumbent": "`L:4.0 T:6.0 E:6.5 R:3.0`",
+    "critical_rejection_factor": "`L:4.0 T:6.0 E:6.5 R:3.0`"
+  },
+  {
+    "id": "T-124",
+    "denomination": "Cross-Border Payroll Settlement Protocol for Remote Teams",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.0,
+      "T": 6.0,
+      "E": 6.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:4.0 T:6.0 E:6.5 R:3.0`",
+    "critical_rejection_factor": "Deel / Remote.com / Wise Multi-Currency Payroll"
+  },
+  {
+    "id": "T-124",
+    "denomination": "Cross-Border Payroll Settlement Protocol for Remote Teams",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.0,
+      "T": 6.0,
+      "E": 6.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:4.0 T:6.0 E:6.5 R:3.0`",
+    "critical_rejection_factor": "`L:4.0 T:6.0 E:6.5 R:3.0`"
+  },
+  {
+    "id": "T-124",
+    "denomination": "Cross-Border Payroll Settlement Protocol for Remote Teams",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.0,
+      "T": 6.0,
+      "E": 6.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:4.0 T:6.0 E:6.5 R:3.0`",
+    "critical_rejection_factor": "`L:4.0 T:6.0 E:6.5 R:3.0`"
   },
   {
     "id": "T-125",
     "denomination": "Cross-Border Carbon Credit Settlement and Retirement",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
     "scores": {
-      "L": 4.0,
-      "T": 6.0,
-      "E": 5.5,
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
       "R": 2.0
     },
-    "dominant_incumbent": "EU ETS Sovereign Registry / Verra Registry",
-    "critical_rejection_factor": "Official carbon credit registries (EU ETS) are sovereign government monopolies; parallel tokenized credits lack legal accounting compliance."
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-125",
+    "denomination": "Cross-Border Carbon Credit Settlement and Retirement",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "EU ETS Sovereign Registry / Verra Registry"
+  },
+  {
+    "id": "T-125",
+    "denomination": "Cross-Border Carbon Credit Settlement and Retirement",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-125",
+    "denomination": "Cross-Border Carbon Credit Settlement and Retirement",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:6.0 R:2.0`"
   },
   {
     "id": "T-126",
     "denomination": "Agent-to-Agent Micro-Arbitrage of L2 DEX Liquidity",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
     "scores": {
       "L": 6.0,
       "T": 7.0,
       "E": 6.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Co-located HFT Bots / Flashbots Builder APIs",
-    "critical_rejection_factor": "L2 DEX liquidity arbitrage is heavily saturated by professional MEV searchers and co-located institutional market makers."
+    "dominant_incumbent": "`L:6.0 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-126",
+    "denomination": "Agent-to-Agent Micro-Arbitrage of L2 DEX Liquidity",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "Co-located HFT Bots / Flashbots Builder APIs"
+  },
+  {
+    "id": "T-126",
+    "denomination": "Agent-to-Agent Micro-Arbitrage of L2 DEX Liquidity",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-126",
+    "denomination": "Agent-to-Agent Micro-Arbitrage of L2 DEX Liquidity",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:6.5 R:2.0`"
   },
   {
     "id": "T-127",
     "denomination": "Agent-to-Agent Settlement with ERC-4337 and Escrows",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
     "scores": {
       "L": 6.5,
       "T": 7.0,
       "E": 6.5,
       "R": 3.0
     },
-    "dominant_incumbent": "Temporal.io / Stripe Agentic Payment Protocols",
-    "critical_rejection_factor": "ERC-4337 account abstraction introduces operational complexity and bundler fees compared to traditional API keys and OAuth servers."
+    "dominant_incumbent": "`L:6.5 T:7.0 E:6.5 R:3.0`",
+    "critical_rejection_factor": "`L:6.5 T:7.0 E:6.5 R:3.0`"
+  },
+  {
+    "id": "T-127",
+    "denomination": "Agent-to-Agent Settlement with ERC-4337 and Escrows",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.5,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:6.5 T:7.0 E:6.5 R:3.0`",
+    "critical_rejection_factor": "Temporal.io / Stripe Agentic Payment Protocols"
+  },
+  {
+    "id": "T-127",
+    "denomination": "Agent-to-Agent Settlement with ERC-4337 and Escrows",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.5,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:6.5 T:7.0 E:6.5 R:3.0`",
+    "critical_rejection_factor": "`L:6.5 T:7.0 E:6.5 R:3.0`"
+  },
+  {
+    "id": "T-127",
+    "denomination": "Agent-to-Agent Settlement with ERC-4337 and Escrows",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.5,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:6.5 T:7.0 E:6.5 R:3.0`",
+    "critical_rejection_factor": "`L:6.5 T:7.0 E:6.5 R:3.0`"
   },
   {
     "id": "T-128",
     "denomination": "Autonomous Agent Orchestrator with Collateral Staking",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
     "scores": {
       "L": 6.0,
       "T": 7.0,
       "E": 6.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Temporal.io / Celery + Corporate Credit Lines",
-    "critical_rejection_factor": "The financial opportunity cost of immobilizing collateral on-chain exceeds the cost of standard corporate SLAs with deferred penalties."
+    "dominant_incumbent": "`L:6.0 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-128",
+    "denomination": "Autonomous Agent Orchestrator with Collateral Staking",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "Temporal.io / Celery + Corporate Credit Lines"
+  },
+  {
+    "id": "T-128",
+    "denomination": "Autonomous Agent Orchestrator with Collateral Staking",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-128",
+    "denomination": "Autonomous Agent Orchestrator with Collateral Staking",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:6.5 R:2.0`"
   },
   {
     "id": "T-129",
     "denomination": "Agentic Market Maker for Private Cloud Computing Services",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
     "scores": {
       "L": 6.0,
       "T": 7.0,
       "E": 4.0,
       "R": 2.0
     },
-    "dominant_incumbent": "RunPod / Lambda Labs / Vast.ai Credit Card Billing",
-    "critical_rejection_factor": "Cloud GPU providers offer on-demand instances with contractual uptime SLAs and 24/7 enterprise support without crypto prepayments."
+    "dominant_incumbent": "`L:6.0 T:7.0 E:4.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:4.0 R:2.0`"
+  },
+  {
+    "id": "T-129",
+    "denomination": "Agentic Market Maker for Private Cloud Computing Services",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 4.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:4.0 R:2.0`",
+    "critical_rejection_factor": "RunPod / Lambda Labs / Vast.ai Credit Card Billing"
+  },
+  {
+    "id": "T-129",
+    "denomination": "Agentic Market Maker for Private Cloud Computing Services",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 4.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:4.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:4.0 R:2.0`"
+  },
+  {
+    "id": "T-129",
+    "denomination": "Agentic Market Maker for Private Cloud Computing Services",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 4.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:4.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:4.0 R:2.0`"
   },
   {
     "id": "T-130",
     "denomination": "Cryptographically Conditioned Escrow for AI Negotiators",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
     "scores": {
-      "L": 5.0,
+      "L": 6.0,
       "T": 7.0,
       "E": 6.5,
       "R": 2.0
     },
-    "dominant_incumbent": "DocuSign IAM / Stripe Custom Connect Escrow",
-    "critical_rejection_factor": "Autonomous AI agents lack civil legal liability; commercial disputes caused by model hallucinations fall outside legal recourse."
+    "dominant_incumbent": "`L:6.0 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-130",
+    "denomination": "Cryptographically Conditioned Escrow for AI Negotiators",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "DocuSign IAM / Stripe Custom Connect Escrow"
+  },
+  {
+    "id": "T-130",
+    "denomination": "Cryptographically Conditioned Escrow for AI Negotiators",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-130",
+    "denomination": "Cryptographically Conditioned Escrow for AI Negotiators",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:6.5 R:2.0`"
   },
   {
     "id": "T-131",
     "denomination": "Decentralized Reputation Registry for AI Agents",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 3 (Economics)",
     "scores": {
       "L": 6.0,
       "T": 7.0,
       "E": 5.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Verified Domain DNS (RFC 8482) / Hugging Face Verified",
-    "critical_rejection_factor": "On-chain decentralized reputation registries are vulnerable to Sybil attacks; enterprise marketplaces prefer verified domain DNS ownership."
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-131",
+    "denomination": "Decentralized Reputation Registry for AI Agents",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "Verified Domain DNS (DNSSEC (RFC 4033-4035) / ACME DNS-01 (RFC 8555)) / Hugging Face Verified"
+  },
+  {
+    "id": "T-131",
+    "denomination": "Decentralized Reputation Registry for AI Agents",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-131",
+    "denomination": "Decentralized Reputation Registry for AI Agents",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:5.5 R:2.0`"
   },
   {
     "id": "T-132",
     "denomination": "Multi-Agent Coordination Protocol with Pay-per-Inference",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
     "scores": {
       "L": 6.0,
       "T": 6.0,
       "E": 5.5,
       "R": 2.0
     },
-    "dominant_incumbent": "OpenAI / Anthropic / Together AI API Gateways",
-    "critical_rejection_factor": "Foundation model providers provide direct APIs with aggregated monthly invoicing; per-token L2 micro-settlement lacks business demand."
+    "dominant_incumbent": "`L:6.0 T:6.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:6.0 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-132",
+    "denomination": "Multi-Agent Coordination Protocol with Pay-per-Inference",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 6.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:6.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "OpenAI / Anthropic / Together AI API Gateways"
+  },
+  {
+    "id": "T-132",
+    "denomination": "Multi-Agent Coordination Protocol with Pay-per-Inference",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 6.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:6.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:6.0 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-132",
+    "denomination": "Multi-Agent Coordination Protocol with Pay-per-Inference",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 6.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:6.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:6.0 E:5.5 R:2.0`"
   },
   {
     "id": "T-133",
     "denomination": "AI Inference Quality Verification Protocol with Slashing",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
     "scores": {
-      "L": 5.5,
-      "T": 6.0,
+      "L": 6.0,
+      "T": 5.5,
       "E": 5.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Cleanlab / DeepEval / Human-in-the-Loop Eval",
-    "critical_rejection_factor": "Generative AI inference quality is non-binary and subjective; smart contracts cannot objectively determine hallucinations on-chain."
+    "dominant_incumbent": "`L:6.0 T:5.5 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-133",
+    "denomination": "AI Inference Quality Verification Protocol with Slashing",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:5.5 R:2.0`",
+    "critical_rejection_factor": "Cleanlab / DeepEval / Human-in-the-Loop Eval"
+  },
+  {
+    "id": "T-133",
+    "denomination": "AI Inference Quality Verification Protocol with Slashing",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-133",
+    "denomination": "AI Inference Quality Verification Protocol with Slashing",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:5.5 R:2.0`"
   },
   {
     "id": "T-134",
     "denomination": "AI Model Training Data Marketplace and Settlement Protocol",
     "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 1 (Regulatory)",
     "scores": {
       "L": 5.0,
       "T": 7.0,
       "E": 7.0,
       "R": 2.0
     },
-    "dominant_incumbent": "Hugging Face Datasets / Scale AI Data Engine",
-    "critical_rejection_factor": "Commercial data aggregators enforce closed licensing; web scrapers ignore on-chain micropayments and extract public datasets directly."
+    "dominant_incumbent": "`L:5.0 T:7.0 E:7.0 R:2.0`",
+    "critical_rejection_factor": "`L:5.0 T:7.0 E:7.0 R:2.0`"
+  },
+  {
+    "id": "T-134",
+    "denomination": "AI Model Training Data Marketplace and Settlement Protocol",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 5.0,
+      "T": 7.0,
+      "E": 7.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:5.0 T:7.0 E:7.0 R:2.0`",
+    "critical_rejection_factor": "Hugging Face Datasets / Scale AI Data Engine"
+  },
+  {
+    "id": "T-134",
+    "denomination": "AI Model Training Data Marketplace and Settlement Protocol",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 5.0,
+      "T": 7.0,
+      "E": 7.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:5.0 T:7.0 E:7.0 R:2.0`",
+    "critical_rejection_factor": "`L:5.0 T:7.0 E:7.0 R:2.0`"
+  },
+  {
+    "id": "T-134",
+    "denomination": "AI Model Training Data Marketplace and Settlement Protocol",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 5.0,
+      "T": 7.0,
+      "E": 7.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:5.0 T:7.0 E:7.0 R:2.0`",
+    "critical_rejection_factor": "`L:5.0 T:7.0 E:7.0 R:2.0`"
   },
   {
     "id": "T-135",
     "denomination": "Distributed GPU Compute Pool with Proof-of-Work Settlement",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
     "scores": {
       "L": 6.0,
       "T": 7.0,
       "E": 5.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Unified Datacenter Clusters (AWS, GCP, Lambda)",
-    "critical_rejection_factor": "Geographically dispersed volunteer GPU pools cannot compete in latency or InfiniBand bandwidth with unified datacenter clusters."
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-135",
+    "denomination": "Distributed GPU Compute Pool with Proof-of-Work Settlement",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "Unified Datacenter Clusters (AWS, GCP, Lambda)"
+  },
+  {
+    "id": "T-135",
+    "denomination": "Distributed GPU Compute Pool with Proof-of-Work Settlement",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-135",
+    "denomination": "Distributed GPU Compute Pool with Proof-of-Work Settlement",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.0 E:5.5 R:2.0`"
   },
   {
     "id": "T-136",
     "denomination": "x402 Compute Utility for ERC-8004 Autonomous Agents",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
     "scores": {
       "L": 7.0,
       "T": 7.5,
       "E": 7.5,
       "R": 3.0
     },
-    "dominant_incumbent": "Stripe Payments / Cloudflare Workers Payments",
-    "critical_rejection_factor": "Despite robust protocol design, the autonomous agent economy lacks sufficient funded on-chain agent volume to sustain standalone profitability."
+    "dominant_incumbent": "`L:7.0 T:7.5 E:7.5 R:3.0`",
+    "critical_rejection_factor": "`L:7.0 T:7.5 E:7.5 R:3.0`"
+  },
+  {
+    "id": "T-136",
+    "denomination": "x402 Compute Utility for ERC-8004 Autonomous Agents",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 7.0,
+      "T": 7.5,
+      "E": 7.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:7.0 T:7.5 E:7.5 R:3.0`",
+    "critical_rejection_factor": "Stripe Payments / Cloudflare Workers Payments"
+  },
+  {
+    "id": "T-136",
+    "denomination": "x402 Compute Utility for ERC-8004 Autonomous Agents",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 7.0,
+      "T": 7.5,
+      "E": 7.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:7.0 T:7.5 E:7.5 R:3.0`",
+    "critical_rejection_factor": "`L:7.0 T:7.5 E:7.5 R:3.0`"
+  },
+  {
+    "id": "T-136",
+    "denomination": "x402 Compute Utility for ERC-8004 Autonomous Agents",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 7.0,
+      "T": 7.5,
+      "E": 7.5,
+      "R": 3.0
+    },
+    "dominant_incumbent": "`L:7.0 T:7.5 E:7.5 R:3.0`",
+    "critical_rejection_factor": "`L:7.0 T:7.5 E:7.5 R:3.0`"
   },
   {
     "id": "T-137",
     "denomination": "On-Chain AI Model Weights Verification and Watermarking",
     "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
     "scores": {
       "L": 6.5,
       "T": 8.0,
-      "E": 5.5,
+      "E": 6.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Hugging Face Hub / SHA-256 + GPG Signatures",
-    "critical_rejection_factor": "Hugging Face and Model Hubs verify SHA-256 model weights and GPG commit signatures free of charge for the entire ML ecosystem."
+    "dominant_incumbent": "`L:6.5 T:8.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.5 T:8.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-137",
+    "denomination": "On-Chain AI Model Weights Verification and Watermarking",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.5,
+      "T": 8.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.5 T:8.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "Hugging Face Hub / SHA-256 + GPG Signatures"
+  },
+  {
+    "id": "T-137",
+    "denomination": "On-Chain AI Model Weights Verification and Watermarking",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.5,
+      "T": 8.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.5 T:8.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.5 T:8.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-137",
+    "denomination": "On-Chain AI Model Weights Verification and Watermarking",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.5,
+      "T": 8.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.5 T:8.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.5 T:8.0 E:6.5 R:2.0`"
   },
   {
     "id": "T-138",
     "denomination": "Private Inference Server on Tor Network with Escrow",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
     "scores": {
-      "L": 5.5,
-      "T": 7.0,
+      "L": 6.0,
+      "T": 6.5,
       "E": 6.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Self-hosted Local LLMs (vLLM / Ollama via WireGuard)",
-    "critical_rejection_factor": "Tor onion routing introduces severe latency (> 2,500ms) that degrades real-time streaming inference for interactive language models."
+    "dominant_incumbent": "`L:6.0 T:6.5 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:6.5 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-138",
+    "denomination": "Private Inference Server on Tor Network with Escrow",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 6.5,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:6.5 E:6.5 R:2.0`",
+    "critical_rejection_factor": "Self-hosted Local LLMs (vLLM / Ollama via WireGuard)"
+  },
+  {
+    "id": "T-138",
+    "denomination": "Private Inference Server on Tor Network with Escrow",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 6.5,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:6.5 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:6.5 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-138",
+    "denomination": "Private Inference Server on Tor Network with Escrow",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 6.5,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:6.5 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:6.5 E:6.5 R:2.0`"
   },
   {
     "id": "T-139",
     "denomination": "GPU Hash-Rate Derivatives Protocol (Cloud Compute)",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 1 (Regulatory)",
     "scores": {
       "L": 4.0,
       "T": 7.5,
       "E": 6.5,
       "R": 2.0
     },
-    "dominant_incumbent": "CME Financial Futures / Cloud Reserved Instances",
-    "critical_rejection_factor": "GPU computing hash-rate derivatives qualify as complex financial derivatives under MiFID II, requiring multimillion-euro exchange licensing."
+    "dominant_incumbent": "`L:4.0 T:7.5 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:4.0 T:7.5 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-139",
+    "denomination": "GPU Hash-Rate Derivatives Protocol (Cloud Compute)",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.0,
+      "T": 7.5,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.0 T:7.5 E:6.5 R:2.0`",
+    "critical_rejection_factor": "CME Financial Futures / Cloud Reserved Instances"
+  },
+  {
+    "id": "T-139",
+    "denomination": "GPU Hash-Rate Derivatives Protocol (Cloud Compute)",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.0,
+      "T": 7.5,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.0 T:7.5 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:4.0 T:7.5 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-139",
+    "denomination": "GPU Hash-Rate Derivatives Protocol (Cloud Compute)",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.0,
+      "T": 7.5,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.0 T:7.5 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:4.0 T:7.5 E:6.5 R:2.0`"
   },
   {
     "id": "T-140",
     "denomination": "Cryptographic Build Integrity Attestation (SLSA Level 2)",
     "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
     "scores": {
       "L": 8.0,
       "T": 8.5,
       "E": 7.5,
       "R": 2.0
     },
-    "dominant_incumbent": "GitHub Actions / Sigstore (Rekor) / Chainguard",
-    "critical_rejection_factor": "GitHub Actions provides free SLSA Level 2 attestations backed by Sigstore/Rekor; EU CRA and DORA accept PKI signatures without blockchain."
+    "dominant_incumbent": "`L:8.0 T:8.5 E:7.5 R:2.0`",
+    "critical_rejection_factor": "`L:8.0 T:8.5 E:7.5 R:2.0`"
+  },
+  {
+    "id": "T-140",
+    "denomination": "Cryptographic Build Integrity Attestation (SLSA Level 2)",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 8.0,
+      "T": 8.5,
+      "E": 7.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:8.0 T:8.5 E:7.5 R:2.0`",
+    "critical_rejection_factor": "GitHub Actions / Sigstore (Rekor) / Chainguard"
+  },
+  {
+    "id": "T-140",
+    "denomination": "Cryptographic Build Integrity Attestation (SLSA Level 2)",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 8.0,
+      "T": 8.5,
+      "E": 7.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:8.0 T:8.5 E:7.5 R:2.0`",
+    "critical_rejection_factor": "`L:8.0 T:8.5 E:7.5 R:2.0`"
+  },
+  {
+    "id": "T-140",
+    "denomination": "Cryptographic Build Integrity Attestation (SLSA Level 2)",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 8.0,
+      "T": 8.5,
+      "E": 7.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:8.0 T:8.5 E:7.5 R:2.0`",
+    "critical_rejection_factor": "`L:8.0 T:8.5 E:7.5 R:2.0`"
   },
   {
     "id": "T-141",
     "denomination": "Open Data Metered Licensing Protocol with Settlement",
     "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
     "scores": {
-      "L": 5.0,
+      "L": 6.5,
       "T": 7.5,
       "E": 6.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Open Data CKAN Portals / Gov REST APIs",
-    "critical_rejection_factor": "The EU Data Act (Art. 5) prohibits paywalling essential public open data; government CKAN portals distribute it freely via REST APIs."
+    "dominant_incumbent": "`L:6.5 T:7.5 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.5 T:7.5 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-141",
+    "denomination": "Open Data Metered Licensing Protocol with Settlement",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.5,
+      "T": 7.5,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.5 T:7.5 E:6.5 R:2.0`",
+    "critical_rejection_factor": "Open Data CKAN Portals / Gov REST APIs"
+  },
+  {
+    "id": "T-141",
+    "denomination": "Open Data Metered Licensing Protocol with Settlement",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.5,
+      "T": 7.5,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.5 T:7.5 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.5 T:7.5 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-141",
+    "denomination": "Open Data Metered Licensing Protocol with Settlement",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.5,
+      "T": 7.5,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.5 T:7.5 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.5 T:7.5 E:6.5 R:2.0`"
   },
   {
     "id": "T-142",
     "denomination": "Programmatic Bid Verification for Public Procurement",
     "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
     "scores": {
       "L": 4.5,
-      "T": 5.5,
+      "T": 6.0,
       "E": 6.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Official State Procurement Portals (PLACSP / FNMT)",
-    "critical_rejection_factor": "Public procurement platforms operate strictly under government FNMT qualified certificates and ministerial registries."
+    "dominant_incumbent": "`L:4.5 T:6.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:4.5 T:6.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-142",
+    "denomination": "Programmatic Bid Verification for Public Procurement",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.5,
+      "T": 6.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.5 T:6.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "Official State Procurement Portals (PLACSP / FNMT)"
+  },
+  {
+    "id": "T-142",
+    "denomination": "Programmatic Bid Verification for Public Procurement",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.5,
+      "T": 6.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.5 T:6.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:4.5 T:6.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-142",
+    "denomination": "Programmatic Bid Verification for Public Procurement",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.5,
+      "T": 6.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.5 T:6.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:4.5 T:6.0 E:6.5 R:2.0`"
   },
   {
     "id": "T-143",
     "denomination": "On-Chain SBOM Attestation for Cyber Resilience Act",
     "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
     "scores": {
       "L": 6.5,
       "T": 8.5,
       "E": 7.0,
       "R": 2.0
     },
-    "dominant_incumbent": "Dependency-Track / CycloneDX / Chainguard",
-    "critical_rejection_factor": "Established open-source tools (Dependency-Track, CycloneDX) and enterprise vendors generate SBOMs without blockchain gas."
+    "dominant_incumbent": "`L:6.5 T:8.5 E:7.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.5 T:8.5 E:7.0 R:2.0`"
+  },
+  {
+    "id": "T-143",
+    "denomination": "On-Chain SBOM Attestation for Cyber Resilience Act",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.5,
+      "T": 8.5,
+      "E": 7.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.5 T:8.5 E:7.0 R:2.0`",
+    "critical_rejection_factor": "Dependency-Track / CycloneDX / Chainguard"
+  },
+  {
+    "id": "T-143",
+    "denomination": "On-Chain SBOM Attestation for Cyber Resilience Act",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.5,
+      "T": 8.5,
+      "E": 7.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.5 T:8.5 E:7.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.5 T:8.5 E:7.0 R:2.0`"
+  },
+  {
+    "id": "T-143",
+    "denomination": "On-Chain SBOM Attestation for Cyber Resilience Act",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.5,
+      "T": 8.5,
+      "E": 7.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.5 T:8.5 E:7.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.5 T:8.5 E:7.0 R:2.0`"
   },
   {
     "id": "T-144",
     "denomination": "P2P Payment Routing Protocol for Censorship-Resistant Agents",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
     "scores": {
-      "L": 5.0,
-      "T": 7.0,
-      "E": 6.0,
+      "L": 6.0,
+      "T": 6.5,
+      "E": 5.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Virtual Corporate Cards (Stripe Issuing, Brex)",
-    "critical_rejection_factor": "P2P payment routing over encrypted networks suffers from liquidity fragmentation and high routing failure rates."
+    "dominant_incumbent": "`L:6.0 T:6.5 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:6.5 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-144",
+    "denomination": "P2P Payment Routing Protocol for Censorship-Resistant Agents",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 6.5,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:6.5 E:5.5 R:2.0`",
+    "critical_rejection_factor": "Virtual Corporate Cards (Stripe Issuing, Brex)"
+  },
+  {
+    "id": "T-144",
+    "denomination": "P2P Payment Routing Protocol for Censorship-Resistant Agents",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 6.5,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:6.5 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:6.5 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-144",
+    "denomination": "P2P Payment Routing Protocol for Censorship-Resistant Agents",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 3 (Economics)",
+    "scores": {
+      "L": 6.0,
+      "T": 6.5,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:6.5 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:6.5 E:5.5 R:2.0`"
   },
   {
     "id": "T-145",
     "denomination": "Sovereign Tor/P2P Timestamping Protocol with ZK Proofs",
     "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 2 (Technical)",
     "scores": {
-      "L": 5.0,
-      "T": 6.5,
+      "L": 6.0,
+      "T": 5.5,
       "E": 7.0,
       "R": 2.5
     },
-    "dominant_incumbent": "eIDAS Qualified TSAs (RFC 3161) / FreeTSA",
-    "critical_rejection_factor": "Judicial courts require qualified eIDAS timestamps; anonymous zero-knowledge timestamps lack qualified evidentiary standing in litigation."
+    "dominant_incumbent": "`L:6.0 T:5.5 E:7.0 R:2.5`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:7.0 R:2.5`"
+  },
+  {
+    "id": "T-145",
+    "denomination": "Sovereign Tor/P2P Timestamping Protocol with ZK Proofs",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 7.0,
+      "R": 2.5
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:7.0 R:2.5`",
+    "critical_rejection_factor": "eIDAS Qualified TSAs (RFC 3161) / FreeTSA"
+  },
+  {
+    "id": "T-145",
+    "denomination": "Sovereign Tor/P2P Timestamping Protocol with ZK Proofs",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 7.0,
+      "R": 2.5
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:7.0 R:2.5`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:7.0 R:2.5`"
+  },
+  {
+    "id": "T-145",
+    "denomination": "Sovereign Tor/P2P Timestamping Protocol with ZK Proofs",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 2 (Technical)",
+    "scores": {
+      "L": 6.0,
+      "T": 5.5,
+      "E": 7.0,
+      "R": 2.5
+    },
+    "dominant_incumbent": "`L:6.0 T:5.5 E:7.0 R:2.5`",
+    "critical_rejection_factor": "`L:6.0 T:5.5 E:7.0 R:2.5`"
   },
   {
     "id": "T-146",
     "denomination": "Cold Chain Integrity Attestation Protocol (Pharma Traceability)",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 4 (Procurement)",
     "scores": {
       "L": 6.0,
       "T": 8.0,
       "E": 7.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Sensitech / Testo Validated Calibrated Data Loggers",
-    "critical_rejection_factor": "EU Good Distribution Practices (GDP) mandate physical sensor calibration certification by human quality auditors, not on-chain hashes."
+    "dominant_incumbent": "`L:6.0 T:8.0 E:7.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:8.0 E:7.5 R:2.0`"
+  },
+  {
+    "id": "T-146",
+    "denomination": "Cold Chain Integrity Attestation Protocol (Pharma Traceability)",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.0,
+      "T": 8.0,
+      "E": 7.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:8.0 E:7.5 R:2.0`",
+    "critical_rejection_factor": "Sensitech / Testo Validated Calibrated Data Loggers"
+  },
+  {
+    "id": "T-146",
+    "denomination": "Cold Chain Integrity Attestation Protocol (Pharma Traceability)",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.0,
+      "T": 8.0,
+      "E": 7.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:8.0 E:7.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:8.0 E:7.5 R:2.0`"
+  },
+  {
+    "id": "T-146",
+    "denomination": "Cold Chain Integrity Attestation Protocol (Pharma Traceability)",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 6.0,
+      "T": 8.0,
+      "E": 7.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:8.0 E:7.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:8.0 E:7.5 R:2.0`"
   },
   {
     "id": "T-147",
     "denomination": "Proof-of-Training: Provenance for Frontier AI Models",
     "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
     "scores": {
       "L": 6.5,
       "T": 7.5,
       "E": 6.0,
       "R": 2.0
     },
-    "dominant_incumbent": "Weights & Biases Artifacts / MLflow Tracking",
-    "critical_rejection_factor": "Auditing terabytes of training checkpoints creates verification compute costs that exceed standard regulatory compliance budgets under the EU AI Act."
+    "dominant_incumbent": "`L:6.5 T:7.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.5 T:7.5 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-147",
+    "denomination": "Proof-of-Training: Provenance for Frontier AI Models",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.5,
+      "T": 7.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.5 T:7.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "Weights & Biases Artifacts / MLflow Tracking"
+  },
+  {
+    "id": "T-147",
+    "denomination": "Proof-of-Training: Provenance for Frontier AI Models",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.5,
+      "T": 7.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.5 T:7.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.5 T:7.5 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-147",
+    "denomination": "Proof-of-Training: Provenance for Frontier AI Models",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.5,
+      "T": 7.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.5 T:7.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.5 T:7.5 E:6.0 R:2.0`"
   },
   {
     "id": "T-148",
     "denomination": "P2P Compute Orchestration on Hidden Networks with ZK",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
     "scores": {
-      "L": 5.5,
+      "L": 6.0,
       "T": 6.0,
       "E": 6.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Akash Network / Vast.ai with Fiat Gateway",
-    "critical_rejection_factor": "Operational complexity and lack of steady compute demand make decentralized P2P ZK scheduling unviable against centralized clouds."
+    "dominant_incumbent": "`L:6.0 T:6.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:6.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-148",
+    "denomination": "P2P Compute Orchestration on Hidden Networks with ZK",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 6.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:6.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "Akash Network / Vast.ai with Fiat Gateway"
+  },
+  {
+    "id": "T-148",
+    "denomination": "P2P Compute Orchestration on Hidden Networks with ZK",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 6.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:6.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:6.0 E:6.5 R:2.0`"
+  },
+  {
+    "id": "T-148",
+    "denomination": "P2P Compute Orchestration on Hidden Networks with ZK",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 6.0,
+      "E": 6.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:6.0 E:6.5 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:6.0 E:6.5 R:2.0`"
   },
   {
     "id": "T-149",
     "denomination": "Cryptographic Industrial Telemetry for ESG Compliance",
     "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 5 (Incumbent)",
     "scores": {
       "L": 6.0,
       "T": 7.5,
       "E": 7.0,
       "R": 2.0
     },
-    "dominant_incumbent": "Big Four Certified ESG Audit Workflows",
-    "critical_rejection_factor": "EU CSRD sustainability reporting accepts third-party financial auditor sign-offs on consolidated annual reports without sensor hashing."
+    "dominant_incumbent": "`L:6.0 T:7.5 E:7.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.5 E:7.0 R:2.0`"
+  },
+  {
+    "id": "T-149",
+    "denomination": "Cryptographic Industrial Telemetry for ESG Compliance",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.5,
+      "E": 7.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.5 E:7.0 R:2.0`",
+    "critical_rejection_factor": "Big Four Certified ESG Audit Workflows"
+  },
+  {
+    "id": "T-149",
+    "denomination": "Cryptographic Industrial Telemetry for ESG Compliance",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.5,
+      "E": 7.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.5 E:7.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.5 E:7.0 R:2.0`"
+  },
+  {
+    "id": "T-149",
+    "denomination": "Cryptographic Industrial Telemetry for ESG Compliance",
+    "thematic_cluster": "Supply Chain & Physical Assets",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 7.5,
+      "E": 7.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:7.5 E:7.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:7.5 E:7.0 R:2.0`"
   },
   {
     "id": "T-150",
     "denomination": "AI Training Dataset Provenance and Copyright Protocol",
     "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 1 (Regulatory)",
     "scores": {
       "L": 5.0,
       "T": 6.5,
       "E": 6.0,
       "R": 2.0
     },
-    "dominant_incumbent": "Data Provenance Initiative / Hugging Face Datasets",
-    "critical_rejection_factor": "Copyright and intellectual property claims by publishers are litigated over full training corpuses in civil courts, not per data point."
+    "dominant_incumbent": "`L:5.0 T:6.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:5.0 T:6.5 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-150",
+    "denomination": "AI Training Dataset Provenance and Copyright Protocol",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 5.0,
+      "T": 6.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:5.0 T:6.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "Data Provenance Initiative / Hugging Face Datasets"
+  },
+  {
+    "id": "T-150",
+    "denomination": "AI Training Dataset Provenance and Copyright Protocol",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 5.0,
+      "T": 6.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:5.0 T:6.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:5.0 T:6.5 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-150",
+    "denomination": "AI Training Dataset Provenance and Copyright Protocol",
+    "thematic_cluster": "Software Integrity & Provenance",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 5.0,
+      "T": 6.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:5.0 T:6.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:5.0 T:6.5 E:6.0 R:2.0`"
   },
   {
     "id": "T-151",
     "denomination": "Collaborative R&D IP Escrow and Contribution Tracking",
     "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 5 (Incumbent)",
     "scores": {
-      "L": 5.5,
+      "L": 6.0,
       "T": 6.5,
       "E": 6.0,
       "R": 2.0
     },
-    "dominant_incumbent": "DESCA Horizon Europe Consortium Agreements",
-    "critical_rejection_factor": "Horizon Europe research consortia operate under standardized DESCA consortium agreements approved by the European Commission."
+    "dominant_incumbent": "`L:6.0 T:6.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:6.5 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-151",
+    "denomination": "Collaborative R&D IP Escrow and Contribution Tracking",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 6.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:6.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "DESCA Horizon Europe Consortium Agreements"
+  },
+  {
+    "id": "T-151",
+    "denomination": "Collaborative R&D IP Escrow and Contribution Tracking",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 6.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:6.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:6.5 E:6.0 R:2.0`"
+  },
+  {
+    "id": "T-151",
+    "denomination": "Collaborative R&D IP Escrow and Contribution Tracking",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 5 (Incumbent)",
+    "scores": {
+      "L": 6.0,
+      "T": 6.5,
+      "E": 6.0,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:6.0 T:6.5 E:6.0 R:2.0`",
+    "critical_rejection_factor": "`L:6.0 T:6.5 E:6.0 R:2.0`"
   },
   {
     "id": "T-152",
     "denomination": "Zero-Knowledge Attestation for the A2A Agent Economy",
     "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
     "scores": {
       "L": 7.0,
       "T": 8.5,
       "E": 7.5,
       "R": 3.5
     },
-    "dominant_incumbent": "Stripe Agentic Payments / Centralized Agent AP2",
-    "critical_rejection_factor": "Identified as high-potential future frontier: viable exclusively for autonomous AI agents without human legal identity in M2M environments."
+    "dominant_incumbent": "`L:7.0 T:8.5 E:7.5 R:3.5`",
+    "critical_rejection_factor": "`L:7.0 T:8.5 E:7.5 R:3.5`"
+  },
+  {
+    "id": "T-152",
+    "denomination": "Zero-Knowledge Attestation for the A2A Agent Economy",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 7.0,
+      "T": 8.5,
+      "E": 7.5,
+      "R": 3.5
+    },
+    "dominant_incumbent": "`L:7.0 T:8.5 E:7.5 R:3.5`",
+    "critical_rejection_factor": "Stripe Agentic Payments / Centralized Agent AP2"
+  },
+  {
+    "id": "T-152",
+    "denomination": "Zero-Knowledge Attestation for the A2A Agent Economy",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 7.0,
+      "T": 8.5,
+      "E": 7.5,
+      "R": 3.5
+    },
+    "dominant_incumbent": "`L:7.0 T:8.5 E:7.5 R:3.5`",
+    "critical_rejection_factor": "`L:7.0 T:8.5 E:7.5 R:3.5`"
+  },
+  {
+    "id": "T-152",
+    "denomination": "Zero-Knowledge Attestation for the A2A Agent Economy",
+    "thematic_cluster": "M2M Settlement & Compute",
+    "elimination_stage": "Filter 4 (Procurement)",
+    "scores": {
+      "L": 7.0,
+      "T": 8.5,
+      "E": 7.5,
+      "R": 3.5
+    },
+    "dominant_incumbent": "`L:7.0 T:8.5 E:7.5 R:3.5`",
+    "critical_rejection_factor": "`L:7.0 T:8.5 E:7.5 R:3.5`"
   },
   {
     "id": "T-153",
     "denomination": "Text and Data Mining Remuneration Settlement Protocol",
     "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
     "scores": {
       "L": 4.5,
       "T": 6.0,
       "E": 5.5,
       "R": 2.0
     },
-    "dominant_incumbent": "Direct Publisher Commercial Licensing Portals",
-    "critical_rejection_factor": "EU Copyright Directive (2019/790, Art. 4) provides a statutory text-and-data mining exception that bypasses commercial micro-licensing."
+    "dominant_incumbent": "`L:4.5 T:6.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:4.5 T:6.0 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-153",
+    "denomination": "Text and Data Mining Remuneration Settlement Protocol",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.5,
+      "T": 6.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.5 T:6.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "Direct Publisher Commercial Licensing Portals"
+  },
+  {
+    "id": "T-153",
+    "denomination": "Text and Data Mining Remuneration Settlement Protocol",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.5,
+      "T": 6.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.5 T:6.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:4.5 T:6.0 E:5.5 R:2.0`"
+  },
+  {
+    "id": "T-153",
+    "denomination": "Text and Data Mining Remuneration Settlement Protocol",
+    "thematic_cluster": "Legal Evidentiary & Notarization",
+    "elimination_stage": "Filter 1 (Regulatory)",
+    "scores": {
+      "L": 4.5,
+      "T": 6.0,
+      "E": 5.5,
+      "R": 2.0
+    },
+    "dominant_incumbent": "`L:4.5 T:6.0 E:5.5 R:2.0`",
+    "critical_rejection_factor": "`L:4.5 T:6.0 E:5.5 R:2.0`"
   }
 ]
